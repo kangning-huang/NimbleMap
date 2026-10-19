@@ -1,6 +1,6 @@
 # Changelog · 更新日志
 
-What changes in each NimbleMap (千层图) release. The newest release is at the top.
+What changes in each NimbleMap (凌波微图) release. The newest release is at the top.
 Versions follow [Semantic Versioning](https://semver.org/); the format follows
 [Keep a Changelog](https://keepachangelog.com/).
 
