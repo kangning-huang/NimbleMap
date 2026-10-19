@@ -8,7 +8,13 @@ Found a bug or want something? [Open an issue](https://github.com/kangning-huang
 
 ## [Unreleased]
 
-The first public release, for Macs with Apple silicon running macOS 13 or later. Free.
+## [0.7.0] - 2026-10-19 (preview)
+
+The first public preview, for Macs with Apple silicon running macOS 13 or later. Free.
+[Download](https://github.com/kangning-huang/NimbleMap/releases/latest/download/NimbleMap-macos-arm64.dmg)
+
+Not notarized yet: the first time you open it, macOS blocks it. Open System Settings ›
+Privacy & Security and click Open Anyway (once).
 
 ### Open
 
@@ -39,4 +45,6 @@ The first public release, for Macs with Apple silicon running macOS 13 or later.
 
 ### Language
 
-- English interface with Chinese place names. A Chinese interface is in progress.
+- The interface in English, Chinese (凌波微图), German, Spanish, French, Italian, Dutch, Brazilian
+  Portuguese, Russian, Japanese and Korean, following the Mac's language (View › Language to change
+  it). Translations other than English are machine-made and being reviewed.
