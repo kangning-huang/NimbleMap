@@ -1,5 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url><loc>https://kangning-huang.github.io/NimbleMap/data.html</loc><lastmod>2026-10-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kangning-huang.github.io/NimbleMap/data.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://kangning-huang.github.io/NimbleMap/zh/data.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://kangning-huang.github.io/NimbleMap/de/data.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://kangning-huang.github.io/NimbleMap/es/data.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://kangning-huang.github.io/NimbleMap/fr/data.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://kangning-huang.github.io/NimbleMap/it/data.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://kangning-huang.github.io/NimbleMap/nl/data.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://kangning-huang.github.io/NimbleMap/pt-br/data.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://kangning-huang.github.io/NimbleMap/ru/data.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://kangning-huang.github.io/NimbleMap/ja/data.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kangning-huang.github.io/NimbleMap/ko/data.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kangning-huang.github.io/NimbleMap/data.html"/>
+  </url>
+  <url><loc>https://kangning-huang.github.io/NimbleMap/de/data.html</loc><lastmod>2026-10-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kangning-huang.github.io/NimbleMap/data.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://kangning-huang.github.io/NimbleMap/zh/data.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://kangning-huang.github.io/NimbleMap/de/data.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://kangning-huang.github.io/NimbleMap/es/data.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://kangning-huang.github.io/NimbleMap/fr/data.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://kangning-huang.github.io/NimbleMap/it/data.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://kangning-huang.github.io/NimbleMap/nl/data.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://kangning-huang.github.io/NimbleMap/pt-br/data.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://kangning-huang.github.io/NimbleMap/ru/data.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://kangning-huang.github.io/NimbleMap/ja/data.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kangning-huang.github.io/NimbleMap/ko/data.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kangning-huang.github.io/NimbleMap/data.html"/>
+  </url>
   <url><loc>https://kangning-huang.github.io/NimbleMap/de/download.html</loc><lastmod>2026-10-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://kangning-huang.github.io/NimbleMap/download.html"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://kangning-huang.github.io/NimbleMap/zh/download.html"/>
@@ -55,6 +83,20 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://kangning-huang.github.io/NimbleMap/ja/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kangning-huang.github.io/NimbleMap/ko/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://kangning-huang.github.io/NimbleMap/"/>
+  </url>
+  <url><loc>https://kangning-huang.github.io/NimbleMap/de/pro.html</loc><lastmod>2026-10-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kangning-huang.github.io/NimbleMap/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://kangning-huang.github.io/NimbleMap/zh/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://kangning-huang.github.io/NimbleMap/de/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://kangning-huang.github.io/NimbleMap/es/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://kangning-huang.github.io/NimbleMap/fr/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://kangning-huang.github.io/NimbleMap/it/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://kangning-huang.github.io/NimbleMap/nl/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://kangning-huang.github.io/NimbleMap/pt-br/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://kangning-huang.github.io/NimbleMap/ru/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://kangning-huang.github.io/NimbleMap/ja/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kangning-huang.github.io/NimbleMap/ko/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kangning-huang.github.io/NimbleMap/pro.html"/>
   </url>
   <url><loc>https://kangning-huang.github.io/NimbleMap/de/workflow-heatwave.html</loc><lastmod>2026-10-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://kangning-huang.github.io/NimbleMap/workflow-heatwave.html"/>
@@ -112,6 +154,20 @@
     <xhtml:link rel="alternate" hreflang="ko" href="https://kangning-huang.github.io/NimbleMap/ko/download.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://kangning-huang.github.io/NimbleMap/download.html"/>
   </url>
+  <url><loc>https://kangning-huang.github.io/NimbleMap/es/data.html</loc><lastmod>2026-10-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kangning-huang.github.io/NimbleMap/data.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://kangning-huang.github.io/NimbleMap/zh/data.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://kangning-huang.github.io/NimbleMap/de/data.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://kangning-huang.github.io/NimbleMap/es/data.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://kangning-huang.github.io/NimbleMap/fr/data.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://kangning-huang.github.io/NimbleMap/it/data.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://kangning-huang.github.io/NimbleMap/nl/data.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://kangning-huang.github.io/NimbleMap/pt-br/data.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://kangning-huang.github.io/NimbleMap/ru/data.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://kangning-huang.github.io/NimbleMap/ja/data.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kangning-huang.github.io/NimbleMap/ko/data.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kangning-huang.github.io/NimbleMap/data.html"/>
+  </url>
   <url><loc>https://kangning-huang.github.io/NimbleMap/es/download.html</loc><lastmod>2026-10-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://kangning-huang.github.io/NimbleMap/download.html"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://kangning-huang.github.io/NimbleMap/zh/download.html"/>
@@ -168,6 +224,20 @@
     <xhtml:link rel="alternate" hreflang="ko" href="https://kangning-huang.github.io/NimbleMap/ko/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://kangning-huang.github.io/NimbleMap/"/>
   </url>
+  <url><loc>https://kangning-huang.github.io/NimbleMap/es/pro.html</loc><lastmod>2026-10-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kangning-huang.github.io/NimbleMap/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://kangning-huang.github.io/NimbleMap/zh/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://kangning-huang.github.io/NimbleMap/de/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://kangning-huang.github.io/NimbleMap/es/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://kangning-huang.github.io/NimbleMap/fr/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://kangning-huang.github.io/NimbleMap/it/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://kangning-huang.github.io/NimbleMap/nl/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://kangning-huang.github.io/NimbleMap/pt-br/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://kangning-huang.github.io/NimbleMap/ru/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://kangning-huang.github.io/NimbleMap/ja/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kangning-huang.github.io/NimbleMap/ko/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kangning-huang.github.io/NimbleMap/pro.html"/>
+  </url>
   <url><loc>https://kangning-huang.github.io/NimbleMap/es/workflow-heatwave.html</loc><lastmod>2026-10-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://kangning-huang.github.io/NimbleMap/workflow-heatwave.html"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://kangning-huang.github.io/NimbleMap/zh/workflow-heatwave.html"/>
@@ -209,6 +279,20 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://kangning-huang.github.io/NimbleMap/ja/workflow-walled-cities.html"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kangning-huang.github.io/NimbleMap/ko/workflow-walled-cities.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://kangning-huang.github.io/NimbleMap/workflow-walled-cities.html"/>
+  </url>
+  <url><loc>https://kangning-huang.github.io/NimbleMap/fr/data.html</loc><lastmod>2026-10-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kangning-huang.github.io/NimbleMap/data.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://kangning-huang.github.io/NimbleMap/zh/data.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://kangning-huang.github.io/NimbleMap/de/data.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://kangning-huang.github.io/NimbleMap/es/data.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://kangning-huang.github.io/NimbleMap/fr/data.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://kangning-huang.github.io/NimbleMap/it/data.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://kangning-huang.github.io/NimbleMap/nl/data.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://kangning-huang.github.io/NimbleMap/pt-br/data.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://kangning-huang.github.io/NimbleMap/ru/data.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://kangning-huang.github.io/NimbleMap/ja/data.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kangning-huang.github.io/NimbleMap/ko/data.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kangning-huang.github.io/NimbleMap/data.html"/>
   </url>
   <url><loc>https://kangning-huang.github.io/NimbleMap/fr/download.html</loc><lastmod>2026-10-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://kangning-huang.github.io/NimbleMap/download.html"/>
@@ -265,6 +349,20 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://kangning-huang.github.io/NimbleMap/ja/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kangning-huang.github.io/NimbleMap/ko/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://kangning-huang.github.io/NimbleMap/"/>
+  </url>
+  <url><loc>https://kangning-huang.github.io/NimbleMap/fr/pro.html</loc><lastmod>2026-10-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kangning-huang.github.io/NimbleMap/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://kangning-huang.github.io/NimbleMap/zh/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://kangning-huang.github.io/NimbleMap/de/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://kangning-huang.github.io/NimbleMap/es/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://kangning-huang.github.io/NimbleMap/fr/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://kangning-huang.github.io/NimbleMap/it/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://kangning-huang.github.io/NimbleMap/nl/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://kangning-huang.github.io/NimbleMap/pt-br/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://kangning-huang.github.io/NimbleMap/ru/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://kangning-huang.github.io/NimbleMap/ja/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kangning-huang.github.io/NimbleMap/ko/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kangning-huang.github.io/NimbleMap/pro.html"/>
   </url>
   <url><loc>https://kangning-huang.github.io/NimbleMap/fr/workflow-heatwave.html</loc><lastmod>2026-10-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://kangning-huang.github.io/NimbleMap/workflow-heatwave.html"/>
@@ -350,6 +448,20 @@
     <xhtml:link rel="alternate" hreflang="ko" href="https://kangning-huang.github.io/NimbleMap/ko/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://kangning-huang.github.io/NimbleMap/"/>
   </url>
+  <url><loc>https://kangning-huang.github.io/NimbleMap/it/data.html</loc><lastmod>2026-10-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kangning-huang.github.io/NimbleMap/data.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://kangning-huang.github.io/NimbleMap/zh/data.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://kangning-huang.github.io/NimbleMap/de/data.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://kangning-huang.github.io/NimbleMap/es/data.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://kangning-huang.github.io/NimbleMap/fr/data.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://kangning-huang.github.io/NimbleMap/it/data.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://kangning-huang.github.io/NimbleMap/nl/data.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://kangning-huang.github.io/NimbleMap/pt-br/data.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://kangning-huang.github.io/NimbleMap/ru/data.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://kangning-huang.github.io/NimbleMap/ja/data.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kangning-huang.github.io/NimbleMap/ko/data.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kangning-huang.github.io/NimbleMap/data.html"/>
+  </url>
   <url><loc>https://kangning-huang.github.io/NimbleMap/it/download.html</loc><lastmod>2026-10-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://kangning-huang.github.io/NimbleMap/download.html"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://kangning-huang.github.io/NimbleMap/zh/download.html"/>
@@ -406,6 +518,20 @@
     <xhtml:link rel="alternate" hreflang="ko" href="https://kangning-huang.github.io/NimbleMap/ko/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://kangning-huang.github.io/NimbleMap/"/>
   </url>
+  <url><loc>https://kangning-huang.github.io/NimbleMap/it/pro.html</loc><lastmod>2026-10-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kangning-huang.github.io/NimbleMap/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://kangning-huang.github.io/NimbleMap/zh/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://kangning-huang.github.io/NimbleMap/de/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://kangning-huang.github.io/NimbleMap/es/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://kangning-huang.github.io/NimbleMap/fr/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://kangning-huang.github.io/NimbleMap/it/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://kangning-huang.github.io/NimbleMap/nl/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://kangning-huang.github.io/NimbleMap/pt-br/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://kangning-huang.github.io/NimbleMap/ru/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://kangning-huang.github.io/NimbleMap/ja/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kangning-huang.github.io/NimbleMap/ko/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kangning-huang.github.io/NimbleMap/pro.html"/>
+  </url>
   <url><loc>https://kangning-huang.github.io/NimbleMap/it/workflow-heatwave.html</loc><lastmod>2026-10-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://kangning-huang.github.io/NimbleMap/workflow-heatwave.html"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://kangning-huang.github.io/NimbleMap/zh/workflow-heatwave.html"/>
@@ -447,6 +573,20 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://kangning-huang.github.io/NimbleMap/ja/workflow-walled-cities.html"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kangning-huang.github.io/NimbleMap/ko/workflow-walled-cities.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://kangning-huang.github.io/NimbleMap/workflow-walled-cities.html"/>
+  </url>
+  <url><loc>https://kangning-huang.github.io/NimbleMap/ja/data.html</loc><lastmod>2026-10-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kangning-huang.github.io/NimbleMap/data.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://kangning-huang.github.io/NimbleMap/zh/data.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://kangning-huang.github.io/NimbleMap/de/data.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://kangning-huang.github.io/NimbleMap/es/data.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://kangning-huang.github.io/NimbleMap/fr/data.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://kangning-huang.github.io/NimbleMap/it/data.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://kangning-huang.github.io/NimbleMap/nl/data.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://kangning-huang.github.io/NimbleMap/pt-br/data.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://kangning-huang.github.io/NimbleMap/ru/data.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://kangning-huang.github.io/NimbleMap/ja/data.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kangning-huang.github.io/NimbleMap/ko/data.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kangning-huang.github.io/NimbleMap/data.html"/>
   </url>
   <url><loc>https://kangning-huang.github.io/NimbleMap/ja/download.html</loc><lastmod>2026-10-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://kangning-huang.github.io/NimbleMap/download.html"/>
@@ -504,6 +644,20 @@
     <xhtml:link rel="alternate" hreflang="ko" href="https://kangning-huang.github.io/NimbleMap/ko/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://kangning-huang.github.io/NimbleMap/"/>
   </url>
+  <url><loc>https://kangning-huang.github.io/NimbleMap/ja/pro.html</loc><lastmod>2026-10-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kangning-huang.github.io/NimbleMap/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://kangning-huang.github.io/NimbleMap/zh/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://kangning-huang.github.io/NimbleMap/de/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://kangning-huang.github.io/NimbleMap/es/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://kangning-huang.github.io/NimbleMap/fr/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://kangning-huang.github.io/NimbleMap/it/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://kangning-huang.github.io/NimbleMap/nl/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://kangning-huang.github.io/NimbleMap/pt-br/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://kangning-huang.github.io/NimbleMap/ru/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://kangning-huang.github.io/NimbleMap/ja/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kangning-huang.github.io/NimbleMap/ko/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kangning-huang.github.io/NimbleMap/pro.html"/>
+  </url>
   <url><loc>https://kangning-huang.github.io/NimbleMap/ja/workflow-heatwave.html</loc><lastmod>2026-10-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://kangning-huang.github.io/NimbleMap/workflow-heatwave.html"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://kangning-huang.github.io/NimbleMap/zh/workflow-heatwave.html"/>
@@ -545,6 +699,20 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://kangning-huang.github.io/NimbleMap/ja/workflow-walled-cities.html"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kangning-huang.github.io/NimbleMap/ko/workflow-walled-cities.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://kangning-huang.github.io/NimbleMap/workflow-walled-cities.html"/>
+  </url>
+  <url><loc>https://kangning-huang.github.io/NimbleMap/ko/data.html</loc><lastmod>2026-10-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kangning-huang.github.io/NimbleMap/data.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://kangning-huang.github.io/NimbleMap/zh/data.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://kangning-huang.github.io/NimbleMap/de/data.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://kangning-huang.github.io/NimbleMap/es/data.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://kangning-huang.github.io/NimbleMap/fr/data.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://kangning-huang.github.io/NimbleMap/it/data.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://kangning-huang.github.io/NimbleMap/nl/data.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://kangning-huang.github.io/NimbleMap/pt-br/data.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://kangning-huang.github.io/NimbleMap/ru/data.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://kangning-huang.github.io/NimbleMap/ja/data.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kangning-huang.github.io/NimbleMap/ko/data.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kangning-huang.github.io/NimbleMap/data.html"/>
   </url>
   <url><loc>https://kangning-huang.github.io/NimbleMap/ko/download.html</loc><lastmod>2026-10-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://kangning-huang.github.io/NimbleMap/download.html"/>
@@ -602,6 +770,20 @@
     <xhtml:link rel="alternate" hreflang="ko" href="https://kangning-huang.github.io/NimbleMap/ko/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://kangning-huang.github.io/NimbleMap/"/>
   </url>
+  <url><loc>https://kangning-huang.github.io/NimbleMap/ko/pro.html</loc><lastmod>2026-10-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kangning-huang.github.io/NimbleMap/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://kangning-huang.github.io/NimbleMap/zh/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://kangning-huang.github.io/NimbleMap/de/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://kangning-huang.github.io/NimbleMap/es/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://kangning-huang.github.io/NimbleMap/fr/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://kangning-huang.github.io/NimbleMap/it/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://kangning-huang.github.io/NimbleMap/nl/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://kangning-huang.github.io/NimbleMap/pt-br/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://kangning-huang.github.io/NimbleMap/ru/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://kangning-huang.github.io/NimbleMap/ja/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kangning-huang.github.io/NimbleMap/ko/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kangning-huang.github.io/NimbleMap/pro.html"/>
+  </url>
   <url><loc>https://kangning-huang.github.io/NimbleMap/ko/workflow-heatwave.html</loc><lastmod>2026-10-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://kangning-huang.github.io/NimbleMap/workflow-heatwave.html"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://kangning-huang.github.io/NimbleMap/zh/workflow-heatwave.html"/>
@@ -643,6 +825,20 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://kangning-huang.github.io/NimbleMap/ja/workflow-walled-cities.html"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kangning-huang.github.io/NimbleMap/ko/workflow-walled-cities.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://kangning-huang.github.io/NimbleMap/workflow-walled-cities.html"/>
+  </url>
+  <url><loc>https://kangning-huang.github.io/NimbleMap/nl/data.html</loc><lastmod>2026-10-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kangning-huang.github.io/NimbleMap/data.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://kangning-huang.github.io/NimbleMap/zh/data.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://kangning-huang.github.io/NimbleMap/de/data.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://kangning-huang.github.io/NimbleMap/es/data.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://kangning-huang.github.io/NimbleMap/fr/data.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://kangning-huang.github.io/NimbleMap/it/data.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://kangning-huang.github.io/NimbleMap/nl/data.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://kangning-huang.github.io/NimbleMap/pt-br/data.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://kangning-huang.github.io/NimbleMap/ru/data.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://kangning-huang.github.io/NimbleMap/ja/data.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kangning-huang.github.io/NimbleMap/ko/data.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kangning-huang.github.io/NimbleMap/data.html"/>
   </url>
   <url><loc>https://kangning-huang.github.io/NimbleMap/nl/download.html</loc><lastmod>2026-10-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://kangning-huang.github.io/NimbleMap/download.html"/>
@@ -700,6 +896,20 @@
     <xhtml:link rel="alternate" hreflang="ko" href="https://kangning-huang.github.io/NimbleMap/ko/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://kangning-huang.github.io/NimbleMap/"/>
   </url>
+  <url><loc>https://kangning-huang.github.io/NimbleMap/nl/pro.html</loc><lastmod>2026-10-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kangning-huang.github.io/NimbleMap/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://kangning-huang.github.io/NimbleMap/zh/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://kangning-huang.github.io/NimbleMap/de/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://kangning-huang.github.io/NimbleMap/es/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://kangning-huang.github.io/NimbleMap/fr/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://kangning-huang.github.io/NimbleMap/it/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://kangning-huang.github.io/NimbleMap/nl/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://kangning-huang.github.io/NimbleMap/pt-br/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://kangning-huang.github.io/NimbleMap/ru/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://kangning-huang.github.io/NimbleMap/ja/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kangning-huang.github.io/NimbleMap/ko/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kangning-huang.github.io/NimbleMap/pro.html"/>
+  </url>
   <url><loc>https://kangning-huang.github.io/NimbleMap/nl/workflow-heatwave.html</loc><lastmod>2026-10-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://kangning-huang.github.io/NimbleMap/workflow-heatwave.html"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://kangning-huang.github.io/NimbleMap/zh/workflow-heatwave.html"/>
@@ -741,6 +951,34 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://kangning-huang.github.io/NimbleMap/ja/workflow-walled-cities.html"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kangning-huang.github.io/NimbleMap/ko/workflow-walled-cities.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://kangning-huang.github.io/NimbleMap/workflow-walled-cities.html"/>
+  </url>
+  <url><loc>https://kangning-huang.github.io/NimbleMap/pro.html</loc><lastmod>2026-10-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kangning-huang.github.io/NimbleMap/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://kangning-huang.github.io/NimbleMap/zh/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://kangning-huang.github.io/NimbleMap/de/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://kangning-huang.github.io/NimbleMap/es/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://kangning-huang.github.io/NimbleMap/fr/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://kangning-huang.github.io/NimbleMap/it/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://kangning-huang.github.io/NimbleMap/nl/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://kangning-huang.github.io/NimbleMap/pt-br/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://kangning-huang.github.io/NimbleMap/ru/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://kangning-huang.github.io/NimbleMap/ja/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kangning-huang.github.io/NimbleMap/ko/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kangning-huang.github.io/NimbleMap/pro.html"/>
+  </url>
+  <url><loc>https://kangning-huang.github.io/NimbleMap/pt-br/data.html</loc><lastmod>2026-10-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kangning-huang.github.io/NimbleMap/data.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://kangning-huang.github.io/NimbleMap/zh/data.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://kangning-huang.github.io/NimbleMap/de/data.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://kangning-huang.github.io/NimbleMap/es/data.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://kangning-huang.github.io/NimbleMap/fr/data.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://kangning-huang.github.io/NimbleMap/it/data.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://kangning-huang.github.io/NimbleMap/nl/data.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://kangning-huang.github.io/NimbleMap/pt-br/data.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://kangning-huang.github.io/NimbleMap/ru/data.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://kangning-huang.github.io/NimbleMap/ja/data.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kangning-huang.github.io/NimbleMap/ko/data.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kangning-huang.github.io/NimbleMap/data.html"/>
   </url>
   <url><loc>https://kangning-huang.github.io/NimbleMap/pt-br/download.html</loc><lastmod>2026-10-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://kangning-huang.github.io/NimbleMap/download.html"/>
@@ -798,6 +1036,20 @@
     <xhtml:link rel="alternate" hreflang="ko" href="https://kangning-huang.github.io/NimbleMap/ko/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://kangning-huang.github.io/NimbleMap/"/>
   </url>
+  <url><loc>https://kangning-huang.github.io/NimbleMap/pt-br/pro.html</loc><lastmod>2026-10-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kangning-huang.github.io/NimbleMap/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://kangning-huang.github.io/NimbleMap/zh/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://kangning-huang.github.io/NimbleMap/de/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://kangning-huang.github.io/NimbleMap/es/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://kangning-huang.github.io/NimbleMap/fr/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://kangning-huang.github.io/NimbleMap/it/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://kangning-huang.github.io/NimbleMap/nl/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://kangning-huang.github.io/NimbleMap/pt-br/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://kangning-huang.github.io/NimbleMap/ru/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://kangning-huang.github.io/NimbleMap/ja/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kangning-huang.github.io/NimbleMap/ko/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kangning-huang.github.io/NimbleMap/pro.html"/>
+  </url>
   <url><loc>https://kangning-huang.github.io/NimbleMap/pt-br/workflow-heatwave.html</loc><lastmod>2026-10-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://kangning-huang.github.io/NimbleMap/workflow-heatwave.html"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://kangning-huang.github.io/NimbleMap/zh/workflow-heatwave.html"/>
@@ -839,6 +1091,20 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://kangning-huang.github.io/NimbleMap/ja/workflow-walled-cities.html"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kangning-huang.github.io/NimbleMap/ko/workflow-walled-cities.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://kangning-huang.github.io/NimbleMap/workflow-walled-cities.html"/>
+  </url>
+  <url><loc>https://kangning-huang.github.io/NimbleMap/ru/data.html</loc><lastmod>2026-10-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kangning-huang.github.io/NimbleMap/data.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://kangning-huang.github.io/NimbleMap/zh/data.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://kangning-huang.github.io/NimbleMap/de/data.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://kangning-huang.github.io/NimbleMap/es/data.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://kangning-huang.github.io/NimbleMap/fr/data.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://kangning-huang.github.io/NimbleMap/it/data.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://kangning-huang.github.io/NimbleMap/nl/data.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://kangning-huang.github.io/NimbleMap/pt-br/data.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://kangning-huang.github.io/NimbleMap/ru/data.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://kangning-huang.github.io/NimbleMap/ja/data.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kangning-huang.github.io/NimbleMap/ko/data.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kangning-huang.github.io/NimbleMap/data.html"/>
   </url>
   <url><loc>https://kangning-huang.github.io/NimbleMap/ru/download.html</loc><lastmod>2026-10-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://kangning-huang.github.io/NimbleMap/download.html"/>
@@ -895,6 +1161,20 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://kangning-huang.github.io/NimbleMap/ja/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kangning-huang.github.io/NimbleMap/ko/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://kangning-huang.github.io/NimbleMap/"/>
+  </url>
+  <url><loc>https://kangning-huang.github.io/NimbleMap/ru/pro.html</loc><lastmod>2026-10-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kangning-huang.github.io/NimbleMap/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://kangning-huang.github.io/NimbleMap/zh/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://kangning-huang.github.io/NimbleMap/de/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://kangning-huang.github.io/NimbleMap/es/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://kangning-huang.github.io/NimbleMap/fr/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://kangning-huang.github.io/NimbleMap/it/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://kangning-huang.github.io/NimbleMap/nl/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://kangning-huang.github.io/NimbleMap/pt-br/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://kangning-huang.github.io/NimbleMap/ru/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://kangning-huang.github.io/NimbleMap/ja/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kangning-huang.github.io/NimbleMap/ko/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kangning-huang.github.io/NimbleMap/pro.html"/>
   </url>
   <url><loc>https://kangning-huang.github.io/NimbleMap/ru/workflow-heatwave.html</loc><lastmod>2026-10-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://kangning-huang.github.io/NimbleMap/workflow-heatwave.html"/>
@@ -980,6 +1260,20 @@
     <xhtml:link rel="alternate" hreflang="ko" href="https://kangning-huang.github.io/NimbleMap/ko/workflow-walled-cities.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://kangning-huang.github.io/NimbleMap/workflow-walled-cities.html"/>
   </url>
+  <url><loc>https://kangning-huang.github.io/NimbleMap/zh/data.html</loc><lastmod>2026-10-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kangning-huang.github.io/NimbleMap/data.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://kangning-huang.github.io/NimbleMap/zh/data.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://kangning-huang.github.io/NimbleMap/de/data.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://kangning-huang.github.io/NimbleMap/es/data.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://kangning-huang.github.io/NimbleMap/fr/data.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://kangning-huang.github.io/NimbleMap/it/data.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://kangning-huang.github.io/NimbleMap/nl/data.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://kangning-huang.github.io/NimbleMap/pt-br/data.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://kangning-huang.github.io/NimbleMap/ru/data.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://kangning-huang.github.io/NimbleMap/ja/data.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kangning-huang.github.io/NimbleMap/ko/data.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kangning-huang.github.io/NimbleMap/data.html"/>
+  </url>
   <url><loc>https://kangning-huang.github.io/NimbleMap/zh/download.html</loc><lastmod>2026-10-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://kangning-huang.github.io/NimbleMap/download.html"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://kangning-huang.github.io/NimbleMap/zh/download.html"/>
@@ -1035,6 +1329,20 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://kangning-huang.github.io/NimbleMap/ja/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kangning-huang.github.io/NimbleMap/ko/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://kangning-huang.github.io/NimbleMap/"/>
+  </url>
+  <url><loc>https://kangning-huang.github.io/NimbleMap/zh/pro.html</loc><lastmod>2026-10-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kangning-huang.github.io/NimbleMap/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://kangning-huang.github.io/NimbleMap/zh/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://kangning-huang.github.io/NimbleMap/de/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://kangning-huang.github.io/NimbleMap/es/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://kangning-huang.github.io/NimbleMap/fr/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://kangning-huang.github.io/NimbleMap/it/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://kangning-huang.github.io/NimbleMap/nl/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://kangning-huang.github.io/NimbleMap/pt-br/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://kangning-huang.github.io/NimbleMap/ru/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://kangning-huang.github.io/NimbleMap/ja/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kangning-huang.github.io/NimbleMap/ko/pro.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kangning-huang.github.io/NimbleMap/pro.html"/>
   </url>
   <url><loc>https://kangning-huang.github.io/NimbleMap/zh/workflow-heatwave.html</loc><lastmod>2026-10-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://kangning-huang.github.io/NimbleMap/workflow-heatwave.html"/>
