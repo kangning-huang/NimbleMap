@@ -2,7 +2,8 @@
 
 A free Mac map app for people who like maps but never learned GIS. Double-click a Shapefile, GeoJSON, CSV or GeoTIFF and it's on the map; click anything to see where it ranks.
 
-- Website: https://kangning-huang.github.io/NimbleMap/ (中文: https://kangning-huang.github.io/NimbleMap/zh/)
+- Website: https://nimblemap.com/ (中文: https://nimblemap.com/zh/)
+- 中国大陆镜像 / Mainland China mirror: https://gitcode.com/KN-Huang/NimbleMap
 - Feedback and bug reports: [open an issue](https://github.com/kangning-huang/NimbleMap/issues)
 - What changed in each release: [CHANGELOG.md](CHANGELOG.md)
 
