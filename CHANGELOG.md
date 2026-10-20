@@ -8,6 +8,43 @@ Found a bug or want something? [Open an issue](https://github.com/kangning-huang
 
 ## [Unreleased]
 
+## [0.7.1] - 2026-10-20 (preview)
+
+For Macs with Apple silicon running macOS 13 or later. Free.
+[Download](https://github.com/kangning-huang/NimbleMap/releases/latest/download/NimbleMap-macos-arm64.dmg)
+
+Still not notarized: the first time you open it, macOS blocks it. Open System Settings ›
+Privacy & Security and click Open Anyway (once).
+
+### One app, Pro when you sign in
+
+- There is one NimbleMap. Pro's features (the Ask box and the analysis buttons on cards) unlock
+  when you sign in inside the app, free with an account. Signed out, everything else works as
+  before, and Pro's features show a lock with Sign In….
+
+### Share
+
+- Share is on for everyone: export a map image (slide, A4 or square, as PNG or PDF), the data, or a
+  map package, from the Share button or the File menu (⌘E for a map image).
+
+### Feedback
+
+- Help › Send Feedback… sends an idea, a problem or anything else from inside the app. It is posted
+  publicly on [GitHub Discussions](https://github.com/kangning-huang/NimbleMap/discussions), where you
+  can follow the replies; you don't need a GitHub account. An email address is optional and never
+  shown.
+
+### Fixes
+
+- Image layers (GeoTIFF and NetCDF) now repeat across the world when you zoom out, like the other
+  layers and the basemap, instead of stopping at a hard edge. Grids stored from 0° to 360° fill
+  both sides of the 180° line.
+- Lines coloured by a category or a value keep the layer's transparency, so overlapping storm
+  tracks still show where they are densest.
+- The table scrolls to the selected row, even far down a long table, when you open it with ⌘T.
+- Matching a table to places is free again; it showed a Pro lock by mistake.
+- The Ask box settles in place right after a message appears.
+
 ## [0.7.0] - 2026-10-19 (preview)
 
 The first public preview, for Macs with Apple silicon running macOS 13 or later. Free.
