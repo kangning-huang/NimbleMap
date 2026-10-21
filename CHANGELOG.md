@@ -8,6 +8,20 @@ Found a bug or want something? [Open an issue](https://github.com/kangning-huang
 
 ## [Unreleased]
 
+## [0.7.3] - 2026-10-21 (preview)
+
+For Macs with Apple silicon running macOS 13 or later. Free.
+[Download](https://github.com/kangning-huang/NimbleMap/releases/latest/download/NimbleMap-macos-arm64.dmg)
+· If you have 0.7.2, choose **Update Now** in the app (or NimbleMap › Check for Updates…).
+
+- **Analysis is free.** The analysis buttons on a layer's card (count points in each area, show an
+  area within a distance, measure, summarize, keep the part inside another layer, join by location,
+  nearest distance, find where, rank) now work for everyone, with no sign-in. Results are previewed
+  on the map until you Keep them, as before.
+- **NimbleMap Pro is the Ask box.** Asking about your layers in plain words (with voice input and the
+  built-in world layers) still unlocks when you sign in, free with an account.
+- 分析工具改为免费：图层卡片上的分析按钮无需登录即可使用。凌波微图 Pro 现在只包括用大白话提问的助手（登录即可免费使用）。
+
 ## [0.7.2] - 2026-10-21 (preview)
 
 For Macs with Apple silicon running macOS 13 or later. Free.
