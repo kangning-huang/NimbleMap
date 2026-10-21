@@ -8,7 +8,7 @@ Found a bug or want something? [Open an issue](https://github.com/kangning-huang
 
 ## [Unreleased]
 
-## [0.7.1] - 2026-10-20 (preview)
+## [0.7.1] - 2026-10-21 (preview)
 
 For Macs with Apple silicon running macOS 13 or later. Free.
 [Download](https://github.com/kangning-huang/NimbleMap/releases/latest/download/NimbleMap-macos-arm64.dmg)
@@ -21,6 +21,9 @@ Privacy & Security and click Open Anyway (once).
 - There is one NimbleMap. Pro's features (the Ask box and the analysis buttons on cards) unlock
   when you sign in inside the app, free with an account. Signed out, everything else works as
   before, and Pro's features show a lock with Sign In….
+- Ask (Pro) shows the answer on the map: the matching features are highlighted, an empty answer
+  highlights nothing, built-in places (like world cities) are drawn when they're the answer, and
+  'nearest' answers draw a line to the nearest feature.
 
 ### Share
 
@@ -33,6 +36,8 @@ Privacy & Security and click Open Anyway (once).
   publicly on [GitHub Discussions](https://github.com/kangning-huang/NimbleMap/discussions), where you
   can follow the replies; you don't need a GitHub account. An email address is optional and never
   shown.
+- Send Feedback: signed-in users' feedback is linked to their account privately (never shown
+  publicly).
 
 ### Fixes
 
