@@ -10,8 +10,16 @@ Found a bug or want something? [Open an issue](https://github.com/kangning-huang
 
 ## [0.7.1] - 2026-10-21 (preview)
 
-For Macs with Apple silicon running macOS 13 or later. Free.
-[Download](https://github.com/kangning-huang/NimbleMap/releases/latest/download/NimbleMap-macos-arm64.dmg)
+For Macs with Apple silicon running macOS 13 or later, and Windows 10 (1809+) / 11, x64. Free.
+[Download for Mac](https://github.com/kangning-huang/NimbleMap/releases/latest/download/NimbleMap-macos-arm64.dmg) ·
+[Download for Windows](https://github.com/kangning-huang/NimbleMap/releases/download/v0.7.1/NimbleMap-windows-x64-setup.exe)
+
+### Windows preview
+
+- A per-user installer with examples, offline help, reference layers and the same sign-in service as the Mac app.
+- DirectX 12 is the default graphics backend, avoiding a native Vulkan startup crash seen during Windows testing.
+- The app respects Windows Animation effects at startup. Restart after changing the setting.
+- The installer is not signed yet; Windows SmartScreen may display a warning.
 
 Still not notarized: the first time you open it, macOS blocks it. Open System Settings ›
 Privacy & Security and click Open Anyway (once).
