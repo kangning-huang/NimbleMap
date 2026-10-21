@@ -8,6 +8,36 @@ Found a bug or want something? [Open an issue](https://github.com/kangning-huang
 
 ## [Unreleased]
 
+## [0.7.2] - 2026-10-21 (preview)
+
+For Macs with Apple silicon running macOS 13 or later. Free.
+[Download](https://github.com/kangning-huang/NimbleMap/releases/latest/download/NimbleMap-macos-arm64.dmg)
+
+- Signed with a Developer ID and notarized by Apple: it opens without the Open Anyway step.
+
+### Updates inside the app
+
+- Update Now: future versions download, verify and install from inside the app (NimbleMap › Check
+  for Updates…). If you have 0.7.0 or 0.7.1, download this version once by hand.
+- **Update Now.** When a new version is out, the notice at the bottom right of the map has an
+  **Update Now** button: NimbleMap downloads the new version in the background (with a progress
+  bar you can cancel), checks that it is genuine (a digital signature and a checksum), replaces
+  itself and reopens. If you have unsaved changes, it asks first. No trip to the website, and no
+  "Open Anyway" again.
+- **NimbleMap › Check for Updates…** checks on demand and says "You're up to date" when you are.
+- The example maps and the built-in world layers ship inside the app, so they update with it. The
+  online basemap is always current.
+- In mainland China the update comes from the GitCode mirror (also used whenever GitHub can't be
+  reached). The check sends no identifiers, only the app's version number, and never runs with
+  View › Work Offline on.
+- If NimbleMap can't replace itself (it runs from the disk image, or your account can't change the
+  Applications folder), it opens the new version in Finder for you to drag to Applications.
+
+### Search
+
+- Chinese place search matches simplified and traditional characters (纽约 finds New York City).
+- Searching a place now flies there in one smooth arc.
+
 ## [0.7.1] - 2026-10-21 (preview)
 
 For Macs with Apple silicon running macOS 13 or later, and Windows 10 (1809+) / 11, x64. Free.
