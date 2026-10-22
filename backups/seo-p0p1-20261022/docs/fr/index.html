@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NimbleMap : glissez-y vos données cartographiques</title>
+<meta name="description" content="Une app Mac gratuite qui ouvre en quelques secondes, sous forme de carte, les données cartographiques que vous téléchargez : Shapefiles, GeoPackages, NetCDF, GeoTIFF, GPX, KML et CSV avec coordonnées. Aucune formation SIG, aucun réglage.">
+<link rel="canonical" href="https://nimblemap.com/fr/">
+<link rel="alternate" hreflang="en" href="https://nimblemap.com/">
+<link rel="alternate" hreflang="zh-Hans" href="https://nimblemap.com/zh/">
+<link rel="alternate" hreflang="de" href="https://nimblemap.com/de/">
+<link rel="alternate" hreflang="es" href="https://nimblemap.com/es/">
+<link rel="alternate" hreflang="fr" href="https://nimblemap.com/fr/">
+<link rel="alternate" hreflang="it" href="https://nimblemap.com/it/">
+<link rel="alternate" hreflang="nl" href="https://nimblemap.com/nl/">
+<link rel="alternate" hreflang="pt-BR" href="https://nimblemap.com/pt-br/">
+<link rel="alternate" hreflang="ru" href="https://nimblemap.com/ru/">
+<link rel="alternate" hreflang="ja" href="https://nimblemap.com/ja/">
+<link rel="alternate" hreflang="ko" href="https://nimblemap.com/ko/">
+<link rel="alternate" hreflang="x-default" href="https://nimblemap.com/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="NimbleMap">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Des données cartographiques trouvées en ligne ? Glissez-les dans NimbleMap.">
+<meta property="og:description" content="Shapefiles, GeoPackages, NetCDF, GeoTIFF, GPX, KML, CSV avec coordonnées : NimbleMap les ouvre sous forme de carte en quelques secondes. Gratuit pour Mac.">
+<meta property="og:url" content="https://nimblemap.com/fr/">
+<meta property="og:image" content="https://nimblemap.com/img/open-storms.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="../assets/logo.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../assets/site.css?v=074">
+<link rel="stylesheet" href="../assets/data.css?v=3">
+<script src="../assets/site.js?v=074"></script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "NimbleMap",
+  "inLanguage": "fr",
+  "operatingSystem": "macOS 13+ (Apple silicon), Windows 10 1809+ / Windows 11 (x64)",
+  "applicationCategory": "UtilitiesApplication",
+  "description": "Une app Mac gratuite qui ouvre en quelques secondes, sous forme de carte, les données cartographiques que vous téléchargez : Shapefiles, GeoPackages, NetCDF, GeoTIFF, GPX, KML et CSV avec coordonnées. Aucune formation SIG, aucun réglage.",
+  "isAccessibleForFree": true,
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "EUR" }
+}
+</script>
+</head>
+<body>
+<header class="site-head">
+  <div class="wrap">
+    <a class="brand" href="index.html"><img src="../assets/logo.svg" alt="" width="30" height="30">NimbleMap</a>
+    <nav class="nav" aria-label="Navigation du site">
+      <a href="index.html" aria-current="page">Accueil</a>
+      <a href="index.html#examples">Exemples</a>
+      <a href="data.html">Données</a>
+      <a href="help.html">Aide</a>
+      <a href="download.html">Télécharger</a>
+      <details class="lang-menu">
+        <summary aria-label="Langue: Français" title="Langue"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.6 2.6 3.9 5.6 3.9 9s-1.3 6.4-3.9 9c-2.6-2.6-3.9-5.6-3.9-9S9.4 5.6 12 3z"/></svg><span>FR</span></summary>
+        <ul>
+          <li><a href="../index.html" hreflang="en" lang="en">English</a></li>
+          <li><a href="../zh/index.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
+          <li><a href="../de/index.html" hreflang="de" lang="de">Deutsch</a></li>
+          <li><a href="../es/index.html" hreflang="es" lang="es">Español</a></li>
+          <li><a href="index.html" hreflang="fr" lang="fr" aria-current="true">Français</a></li>
+          <li><a href="../it/index.html" hreflang="it" lang="it">Italiano</a></li>
+          <li><a href="../nl/index.html" hreflang="nl" lang="nl">Nederlands</a></li>
+          <li><a href="../pt-br/index.html" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a></li>
+          <li><a href="../ru/index.html" hreflang="ru" lang="ru">Русский</a></li>
+          <li><a href="../ja/index.html" hreflang="ja" lang="ja">日本語</a></li>
+          <li><a href="../ko/index.html" hreflang="ko" lang="ko">한국어</a></li>
+        </ul>
+      </details>
+      <button class="theme-btn" type="button" aria-label="Changer de thème"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M5.3 18.7l1.4-1.4M17.3 6.7l1.4-1.4"/></svg></button>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="hero contours drop-hero">
+  <div class="wrap hero-grid">
+    <div>
+      <p class="eyebrow">Gratuit pour Mac et Windows</p>
+      <h1>Des données cartographiques trouvées en ligne ? Glissez-les dans NimbleMap.</h1>
+      <p class="lede">Shapefiles, GeoPackages, NetCDF, GeoTIFF, GPX, KML, CSV avec coordonnées : les fichiers que vous téléchargez auprès de la NASA, de l’USGS ou sur le portail open data de votre ville. NimbleMap les ouvre sous forme de carte en quelques secondes. Aucune formation SIG, aucun réglage.</p>
+      <p class="hero-how">Glissez le fichier dans NimbleMap, ou double-cliquez sur un fichier Shapefile, GeoPackage ou NetCDF pour l’ouvrir directement.</p>
+      <div class="actions">
+        <a class="btn btn-primary btn-get" href="https://github.com/kangning-huang/NimbleMap/releases/latest/download/NimbleMap-macos-arm64.dmg" download>Télécharger gratuitement pour Mac</a>
+        <a class="btn btn-quiet btn-windows" href="https://github.com/kangning-huang/NimbleMap/releases/download/v0.7.1/NimbleMap-windows-x64-setup.exe" download>Télécharger pour Windows</a>
+        <a class="btn btn-quiet" href="#data">Où trouver des données cartographiques ?</a>
+      </div>
+      <p class="desktop-platforms">Disponible sur Mac (Apple silicon, macOS 13+) et Windows 10/11 (x64).</p>
+      <p class="dl-fine"><strong>Mac:</strong> Gratuit · environ 109 Mo · macOS 13 ou version ultérieure · puce Apple · fonctionne hors ligne</p>
+    </div>
+    <div class="hero-shot showcase drop-scene" data-rotate="3500">
+      <figure class="frame stage">
+        <img class="slide is-on" src="../img/open-storms.jpg" alt="NimbleMap avec le fichier IBTrACS_storm_tracks_1980-2026.shp ouvert : 4 999 trajectoires de tempêtes sur l’Asie et le Pacifique, colorées selon le vent maximal, et la fiche de la couche qui indique le nom du fichier et la légende." width="1600" height="996">
+        <img class="slide" src="../img/open-earthquakes.jpg" alt="NimbleMap avec usgs_earthquakes_M6plus_1900-2026.gpkg ouvert : 14 537 séismes formant un anneau autour du Pacifique, colorés selon la magnitude." width="1600" height="996" loading="lazy" aria-hidden="true">
+        <img class="slide" src="../img/open-heatwave.jpg" alt="NimbleMap avec GDO_heatwave_intensity_JJA_2023.nc ouvert au 16 juillet 2023 : l’intensité des vagues de chaleur en rouges sur trois continents, et le curseur temporel sous la carte." width="1600" height="996" loading="lazy" aria-hidden="true">
+        <img class="slide" src="../img/open-relief.jpg" alt="NimbleMap avec ETOPO_2022_relief_30min.tif ouvert : l’altitude des terres et des fonds marins de toute la planète en dégradé de couleurs." width="1600" height="996" loading="lazy" aria-hidden="true">
+        <img class="slide" src="../img/open-volcanoes.jpg" alt="NimbleMap avec NCEI_volcano_locations.csv ouvert : 1 609 volcans en points autour de la ceinture de feu du Pacifique, colorés selon l’altitude." width="1600" height="996" loading="lazy" aria-hidden="true">
+      </figure>
+      <svg class="drop-arrow" viewBox="0 0 110 70" aria-hidden="true"><path d="M6 64C26 30 56 14 98 10"/><path class="head" d="M88 3l11 7-10 8"/></svg>
+      <div class="files" role="group" aria-label="Un dossier de fichiers cartographiques téléchargés : choisissez-en un pour le voir ouvert dans NimbleMap">
+        <p class="files-head"><svg class="folder" viewBox="0 0 20 20" aria-hidden="true"><path d="M2 5.5A1.5 1.5 0 0 1 3.5 4h4l1.6 1.8h7.4A1.5 1.5 0 0 1 18 7.3v7.2a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 2 14.5z"/></svg><span>données cartographiques</span><button type="button" class="pause" aria-label="Mettre le diaporama en pause" aria-pressed="false"><svg viewBox="0 0 16 16" aria-hidden="true"><rect class="bars" x="4" y="3" width="2.6" height="10" rx="1"/><rect class="bars" x="9.4" y="3" width="2.6" height="10" rx="1"/><path class="play" d="M5 3.2v9.6a.6.6 0 0 0 .9.5l7.4-4.8a.6.6 0 0 0 0-1L5.9 2.7a.6.6 0 0 0-.9.5z"/></svg></button></p>
+        <button type="button" class="kind file" data-i="0" data-caption="IBTrACS_storm_tracks_1980-2026.shp : 4 999 trajectoires de tempêtes, colorées selon le vent maximal" aria-pressed="true"><span class="ext">SHP</span><span class="fname">IBTrACS_storm_tracks_1980-2026.shp</span><span class="fsize">5,3 Mo</span><svg class="grab" viewBox="0 0 20 20" aria-hidden="true"><path d="M5 2.5l10 7.2-4.4.7 2.6 5.3-2.2 1-2.5-5.3L5 14.6z"/></svg></button>
+        <button type="button" class="kind file" data-i="1" data-caption="usgs_earthquakes_M6plus_1900-2026.gpkg : 14 537 grands séismes, colorés selon la magnitude" aria-pressed="false"><span class="ext">GPKG</span><span class="fname">usgs_earthquakes_M6plus_1900-2026.gpkg</span><span class="fsize">2,2 Mo</span><svg class="grab" viewBox="0 0 20 20" aria-hidden="true"><path d="M5 2.5l10 7.2-4.4.7 2.6 5.3-2.2 1-2.5-5.3L5 14.6z"/></svg></button>
+        <button type="button" class="kind file" data-i="2" data-caption="GDO_heatwave_intensity_JJA_2023.nc : grilles quotidiennes de vagues de chaleur, avec un curseur temporel" aria-pressed="false"><span class="ext">NC</span><span class="fname">GDO_heatwave_intensity_JJA_2023.nc</span><span class="fsize">12,6 Mo</span><svg class="grab" viewBox="0 0 20 20" aria-hidden="true"><path d="M5 2.5l10 7.2-4.4.7 2.6 5.3-2.2 1-2.5-5.3L5 14.6z"/></svg></button>
+        <button type="button" class="kind file" data-i="3" data-caption="ETOPO_2022_relief_30min.tif : altitude des terres et des fonds marins de toute la planète" aria-pressed="false"><span class="ext">TIF</span><span class="fname">ETOPO_2022_relief_30min.tif</span><span class="fsize">375 Ko</span><svg class="grab" viewBox="0 0 20 20" aria-hidden="true"><path d="M5 2.5l10 7.2-4.4.7 2.6 5.3-2.2 1-2.5-5.3L5 14.6z"/></svg></button>
+        <button type="button" class="kind file" data-i="4" data-caption="NCEI_volcano_locations.csv : 1 609 volcans, colorés selon l’altitude" aria-pressed="false"><span class="ext">CSV</span><span class="fname">NCEI_volcano_locations.csv</span><span class="fsize">106 Ko</span><svg class="grab" viewBox="0 0 20 20" aria-hidden="true"><path d="M5 2.5l10 7.2-4.4.7 2.6 5.3-2.2 1-2.5-5.3L5 14.6z"/></svg></button>
+      </div>
+      <p class="kind-caption">IBTrACS_storm_tracks_1980-2026.shp : 4 999 trajectoires de tempêtes, colorées selon le vent maximal</p>
+    </div>
+  </div>
+</section>
+
+<section class="film-band" id="film">
+  <div class="wrap">
+    <div class="hero-film">
+      <figure class="frame film">
+        <video class="film-loop" autoplay muted loop playsinline preload="metadata" poster="../img/hero-poster.jpg" width="1280" height="720" aria-label="Un film de 78 secondes sur NimbleMap : des fichiers de carte glissés et ouverts, près de 5 000 trajectoires de tempêtes parcourues, un séisme cliqué, une canicule d’été rejouée jour après jour et une question résolue avec Pro."><source src="../video/hero-loop.mp4" type="video/mp4"></video>
+        <img class="film-still" src="../img/hero-poster.jpg" alt="Un film de 78 secondes sur NimbleMap : des fichiers de carte glissés et ouverts, près de 5 000 trajectoires de tempêtes parcourues, un séisme cliqué, une canicule d’été rejouée jour après jour et une question résolue avec Pro." width="1280" height="720" loading="lazy">
+        <button type="button" class="film-pause" aria-pressed="false"><svg viewBox="0 0 16 16" aria-hidden="true"><rect class="bars" x="4" y="3" width="2.6" height="10" rx="1"/><rect class="bars" x="9.4" y="3" width="2.6" height="10" rx="1"/><path class="play" d="M5 3.2v9.6a.6.6 0 0 0 .9.5l7.4-4.8a.6.6 0 0 0 0-1L5.9 2.7a.6.6 0 0 0-.9.5z"/></svg></button>
+      </figure>
+      <p class="film-caption">NimbleMap en 78 secondes : glissez un fichier, explorez-le, posez-lui une question.</p>
+    </div>
+  </div>
+</section>
+
+<section id="data">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">Données gratuites</p>
+      <h2>Où trouver des données cartographiques ?</h2>
+      <p class="lede">Des jeux de données publics triés sur le volet, des séismes en direct aux voies romaines. La plupart se téléchargent en un clic.</p>
+    </div>
+    <div class="ds-grid ds-teaser">
+        <article class="ds">
+          <img class="ds-art" src="../img/data-laws/earthquakes.svg?v=4" alt="" width="320" height="180" loading="lazy" decoding="async">
+          <h3>Séismes en direct</h3>
+          <p class="ds-src">USGS Earthquake Hazards Program</p>
+          <div class="ds-actions"><a class="ds-get" href="https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_month.csv" download aria-label="Télécharger CSV · 2 Mo"><svg class="dl-ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 2v8m0 0L4.8 6.8M8 10l3.2-3.2M3 13h10"/></svg><span>CSV · 2 Mo</span></a><a class="ds-more" href="https://earthquake.usgs.gov/earthquakes/feed/v1.0/csv.php" rel="noopener" target="_blank">Page de la source<span aria-hidden="true"> ↗</span></a></div>
+        </article>
+        <article class="ds">
+          <img class="ds-art" src="../img/data-laws/tornadoes.svg?v=4" alt="" width="320" height="180" loading="lazy" decoding="async">
+          <h3>Toutes les tornades aux États-Unis depuis 1950</h3>
+          <p class="ds-src">NOAA Storm Prediction Center</p>
+          <div class="ds-actions"><a class="ds-get" href="https://www.spc.noaa.gov/gis/svrgis/zipped/1950-2025-torn-aspath.zip" download aria-label="Télécharger Shapefile (zip) · 5 Mo"><svg class="dl-ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 2v8m0 0L4.8 6.8M8 10l3.2-3.2M3 13h10"/></svg><span>Shapefile · 5 Mo</span></a><a class="ds-more" href="https://www.spc.noaa.gov/gis/svrgis/" rel="noopener" target="_blank">Page de la source<span aria-hidden="true"> ↗</span></a></div>
+        </article>
+        <article class="ds">
+          <img class="ds-art" src="../img/data-laws/precipitation.svg?v=4" alt="" width="320" height="180" loading="lazy" decoding="async">
+          <h3>Pluie et neige partout depuis 1979</h3>
+          <p class="ds-src">GPCP v2.3, via NOAA PSL</p>
+          <div class="ds-actions"><a class="ds-get" href="https://downloads.psl.noaa.gov/Datasets/gpcp/precip.mon.mean.nc" download aria-label="Télécharger NetCDF · 20 Mo"><svg class="dl-ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 2v8m0 0L4.8 6.8M8 10l3.2-3.2M3 13h10"/></svg><span>NetCDF · 20 Mo</span></a><a class="ds-more" href="https://psl.noaa.gov/data/gridded/data.gpcp.html" rel="noopener" target="_blank">Page de la source<span aria-hidden="true"> ↗</span></a></div>
+        </article>
+        <article class="ds">
+          <img class="ds-art" src="../img/data-laws/roman-roads.svg?v=4" alt="" width="320" height="180" loading="lazy" decoding="async">
+          <h3>Les routes de l’Empire romain</h3>
+          <p class="ds-src">Itiner-e, de Soto et al. 2025 (Zenodo)</p>
+          <div class="ds-actions"><a class="ds-get" href="https://zenodo.org/records/17122148/files/itinere_roads.gpkg?download=1" download aria-label="Télécharger GeoPackage · 34 Mo"><svg class="dl-ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 2v8m0 0L4.8 6.8M8 10l3.2-3.2M3 13h10"/></svg><span>GeoPackage · 34 Mo</span></a><a class="ds-more" href="https://zenodo.org/records/17122148" rel="noopener" target="_blank">Page de la source<span aria-hidden="true"> ↗</span></a></div>
+        </article>
+    </div>
+    <p class="more-link"><a class="btn btn-quiet" href="data.html">Voir les 34 jeux de données →</a></p>
+  </div>
+</section>
+
+<section id="formats">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">Ce qu’il ouvre</p>
+      <h2>Les fichiers que vous téléchargez vraiment</h2>
+      <p class="lede">Glissez un fichier dans NimbleMap : il se place au bon endroit, dans la bonne projection, prêt à être exploré.</p>
+    </div>
+    <ul class="formats">
+      <li><p class="exts"><span>.shp</span></p><h3>Shapefile</h3><p>Limites, routes, trajectoires de tempêtes. Gardez les fichiers .dbf, .shx et .prj à côté.</p></li>
+      <li><p class="exts"><span>.zip</span></p><h3>Shapefile zippé</h3><p>Ouvrez-le tel quel, sans le décompresser.</p></li>
+      <li><p class="exts"><span>.gpkg</span></p><h3>GeoPackage</h3><p>Un seul fichier bien rangé, qui peut contenir de nombreuses couches.</p></li>
+      <li><p class="exts"><span>.geojson</span><span>.json</span></p><h3>GeoJSON</h3><p>Le format cartographique du web, issu des portails open data et des API.</p></li>
+      <li><p class="exts"><span>.csv</span><span>.tsv</span><span>.xlsx</span></p><h3>Tableurs</h3><p>CSV, TSV ou Excel avec des colonnes de latitude et de longitude.</p></li>
+      <li><p class="exts"><span>.kml</span><span>.kmz</span></p><h3>KML et KMZ</h3><p>Repères, trajets et zones issus de Google Earth.</p></li>
+      <li><p class="exts"><span>.gpx</span></p><h3>GPX</h3><p>Courses, sorties à vélo et randonnées enregistrées par votre montre ou votre téléphone.</p></li>
+      <li><p class="exts"><span>.tif</span><span>.tiff</span></p><h3>GeoTIFF</h3><p>Altitude, occupation du sol, images satellite et de drone.</p></li>
+      <li><p class="exts"><span>.nc</span></p><h3>NetCDF</h3><p>Grilles climatiques et météo, à lire avec un curseur temporel.</p></li>
+    </ul>
+    <p class="formats-note">Un double-clic ouvre les Shapefiles, GeoPackages et fichiers NetCDF dans NimbleMap. Les autres fichiers s’ouvrent dans d’autres apps quand vous double-cliquez dessus : glissez-les donc dans NimbleMap, ou faites clic droit › Ouvrir avec › NimbleMap.</p>
+  </div>
+</section>
+
+<section id="principles">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">Une fois le fichier ouvert</p>
+      <h2>Puis explorez</h2>
+    </div>
+    <div class="principle-shots four">
+      <div class="principle">
+        <figure class="frame"><img src="../img/open-zoom.jpg" alt="Des milliers de trajectoires de tempêtes traversant la mer de Chine méridionale et les Philippines, en vue rapprochée, colorées selon le vent maximal." loading="lazy" width="800" height="500"></figure>
+        <svg class="p-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5 21 21M10.5 7.5v6M7.5 10.5h6"/></svg><h3>Zoomer et se déplacer</h3>
+        <p>Faites défiler, pincez et faites glisser, de la planète entière jusqu’à une seule côte.</p>
+      </div>
+      <div class="principle">
+        <figure class="frame"><img src="../img/open-search.jpg" alt="Le champ de recherche de la fiche de la couche avec « Haiyan » saisi : 3 résultats, et les trois trajectoires nommées Haiyan tracées en gras sur la carte." loading="lazy" width="800" height="500"></figure>
+        <svg class="p-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 6h9M3.5 11h6M3.5 16h5"/><circle cx="15.5" cy="13.5" r="4"/><path d="m18.5 16.5 3 3"/></svg><h3>Cherchez des lieux ou dans vos données</h3>
+        <p>Tapez une ville pour vous y rendre, ou un nom pour le trouver dans votre fichier : ici, toutes les tempêtes nommées Haiyan.</p>
+      </div>
+      <div class="principle">
+        <figure class="frame"><img src="../img/open-click.jpg" alt="La fiche d’un objet : la magnitude de 9,10 du grand séisme de Tōhoku de 2011 est supérieure à 99 % des 14 537 séismes." loading="lazy" width="800" height="500"></figure>
+        <svg class="p-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5.5A1.5 1.5 0 0 1 5.5 4h13A1.5 1.5 0 0 1 20 5.5v9a1.5 1.5 0 0 1-1.5 1.5H10l-4.2 3.6V16H5.5A1.5 1.5 0 0 1 4 14.5z"/><path d="M10.2 8.4a1.9 1.9 0 1 1 2.6 1.8c-.5.2-.8.6-.8 1.1v.4"/><circle cx="12" cy="13.6" r=".6" class="dot"/></svg><h3>Cliquez sur n’importe quoi</h3>
+        <p>Voyez ce que c’est et comment cela se compare. Le séisme de Tōhoku de 2011 était plus fort que 99 % des 14 537.</p>
+      </div>
+      <div class="principle">
+        <figure class="frame"><img src="../img/open-time.jpg" alt="Intensité des vagues de chaleur le 16 juillet 2023 sur les Amériques, l’Afrique et l’Europe, avec le curseur temporel à l’étape 46 sur 92." loading="lazy" width="800" height="500"></figure>
+        <svg class="p-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M10 8.5v7l5.5-3.5z"/></svg><h3>Faites défiler le temps</h3>
+        <p>Les fichiers comportant des pas de temps ont un curseur. Appuyez sur Play (Lire) et regardez un été de vagues de chaleur se déplacer.</p>
+      </div>
+    </div>
+    <p class="also">Chaque chiffre vient de toutes vos données, pas seulement de ce qui est à l’écran, et chaque étape peut être annulée.</p>
+  </div>
+</section>
+
+<section class="pro-band">
+  <div class="wrap">
+    <span class="tag">PRO</span>
+    <p><strong>NimbleMap Pro :</strong> posez des questions à vos données en langage courant. Se débloque quand vous vous connectez dans l’app, gratuitement avec un compte.</p>
+    <a class="pro-more" href="pro.html">Ce qu’apporte Pro →</a>
+  </div>
+</section>
+
+<section id="examples">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">S’entraîner</p>
+      <h2>Débutant en cartographie ? Entraînez-vous sur huit exemples intégrés</h2>
+      <p class="lede">Rien à télécharger : ils sont fournis avec l’app.</p>
+    </div>
+    <div class="features mini">
+      <article class="example feature">
+        <figure class="frame"><img src="../img/typhoons-card.jpg" alt="NimbleMap avec 4 999 trajectoires de typhons sur l’Asie et le Pacifique ; le typhon Haiyan est sélectionné et sa fiche indique que son vent maximal de 170 nœuds est supérieur à 99 % des 4 547 tempêtes." loading="lazy" width="1600" height="996"></figure>
+        <div class="feature-body">
+          <h3>Typhons et ouragans</h3>
+          <p>4 999 trajectoires de tempêtes depuis 1980. Les vents de 170 nœuds de Haiyan dépassent 99 % des 4 547 tempêtes.</p>
+          <a class="ex-link" href="workflow-typhoons.html">Essayez pas à pas →</a>
+          <span class="coords">IBTrACS v04r01</span>
+        </div>
+      </article>
+      <article class="example feature">
+        <figure class="frame"><img src="../img/walls-satellite.jpg" alt="Les murailles de Pékin en 1866 sur l’imagerie satellite, avec une fiche indiquant que la ville couvrait 35,3 km², plus que 99 % des 1 789 villes fortifiées." loading="lazy" width="1600" height="996"></figure>
+        <div class="feature-body">
+          <h3>Villes fortifiées de Chine, 1866</h3>
+          <p>1 789 murailles de villes. Celle de Pékin enfermait 35,3&nbsp;km², plus que 99 % d’entre elles.</p>
+          <a class="ex-link" href="workflow-walled-cities.html">Essayez pas à pas →</a>
+          <span class="coords">Xue et al. 2021 · CC BY 4.0</span>
+        </div>
+      </article>
+      <article class="example feature">
+        <figure class="frame"><img src="../img/heatwave-click.jpg" alt="Intensité des vagues de chaleur sur l’Europe et l’Afrique du Nord le 16 juillet 2023, avec une cellule sélectionnée et le curseur temporel en dessous." loading="lazy" width="1600" height="996"></figure>
+        <div class="feature-body">
+          <h3>Vagues de chaleur, été 2023</h3>
+          <p>Appuyez sur Play (Lire) et regardez la chaleur se déplacer autour du monde.</p>
+          <a class="ex-link" href="workflow-heatwave.html">Essayez pas à pas →</a>
+          <span class="coords">Copernicus GDO / JRC · CC BY 4.0</span>
+        </div>
+      </article>
+    </div>
+    <p class="also">Également intégrés : les séismes depuis 1900, les volcans, les aéroports, les centrales électriques, ainsi que les villes, les pays et l’altitude du monde entier.</p>
+  </div>
+</section>
+
+<section id="share">
+  <div class="wrap share-grid">
+    <div class="section-head">
+      <p class="eyebrow">Partager</p>
+      <h2>Partagez vos découvertes</h2>
+      <p class="lede">Ajoutez un titre, une légende et les sources. Exportez pour une diapositive, un rapport ou une publication.</p>
+    </div>
+    <figure class="frame"><img src="../img/heatwave-export.jpg" alt="La fenêtre d’export d’image de la carte : la carte des vagues de chaleur de 2023 avec une légende, des étiquettes de latitude et de longitude et les sources, et des tailles pour une diapositive, un rapport A4 ou une publication carrée." loading="lazy" width="1600" height="996"></figure>
+  </div>
+</section>
+
+<section id="download" class="final-cta contours">
+  <div class="wrap">
+    <img class="cta-icon" src="../img/icon-256.png" alt="" width="96" height="96">
+    <h2>Explorez de vraies données sur la planète.</h2>
+    <div class="cta-actions">
+      <a class="btn btn-primary btn-get" href="https://github.com/kangning-huang/NimbleMap/releases/latest/download/NimbleMap-macos-arm64.dmg" download>Télécharger gratuitement pour Mac</a>
+        <a class="btn btn-quiet btn-windows" href="https://github.com/kangning-huang/NimbleMap/releases/download/v0.7.1/NimbleMap-windows-x64-setup.exe" download>Télécharger pour Windows</a>
+    </div>
+    <p class="desktop-platforms">Disponible sur Mac (Apple silicon, macOS 13+) et Windows 10/11 (x64).</p>
+    <p class="dl-fine"><strong>Mac:</strong> Gratuit · environ 109 Mo · macOS 13 ou version ultérieure · puce Apple · fonctionne hors ligne</p>
+    <div class="share" role="group" aria-label="Partager"><span class="share-label">Partager</span><a class="share-btn" data-net="x" href="#" target="_blank" rel="noopener" aria-label="Partager sur X">X</a><a class="share-btn" data-net="facebook" href="#" target="_blank" rel="noopener" aria-label="Partager sur Facebook">Facebook</a><a class="share-btn" data-net="reddit" href="#" target="_blank" rel="noopener" aria-label="Partager sur Reddit">Reddit</a><a class="share-btn" data-net="linkedin" href="#" target="_blank" rel="noopener" aria-label="Partager sur LinkedIn">LinkedIn</a></div>
+    <p class="built-on">NimbleMap repose sur <a href="https://github.com/opengeos/RustGIS">RustGIS</a>.</p>
+  </div>
+</section>
+</main>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <div>
+      <p><strong>NimbleMap</strong> · une app centrée sur la carte, construite sur RustGIS.</p>
+      <p>Les captures d’écran montrent des données cartographiques © contributeurs OpenStreetMap (ODbL) via Protomaps, Natural Earth (domaine public) et des images NASA Blue Marble (NASA Earth Observatory, GIBS). Données d’exemple : NOAA IBTrACS, Xue et al. 2021 (CC BY 4.0), Copernicus Global Drought Observatory / JRC (CC BY 4.0), USGS, NOAA ETOPO 2022, NOAA NCEI.</p>
+    </div>
+    <div class="foot-nav"><p class="foot-links"><a href="help.html">Aide</a> · <a href="glossary.html">Glossaire</a> · <a href="data.html">Données</a> · <a href="pro.html">Pro</a> · <a href="https://github.com/kangning-huang/NimbleMap/blob/main/CHANGELOG.md">Journal des modifications</a></p><p class="foot-note">NimbleMap est un projet indépendant, sans lien avec Apple, Esri ni le projet QGIS.</p><p class="foot-langs"><a href="../index.html" hreflang="en" lang="en">English</a> · <a href="../zh/index.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a> · <a href="../de/index.html" hreflang="de" lang="de">Deutsch</a> · <a href="../es/index.html" hreflang="es" lang="es">Español</a> · <a href="../it/index.html" hreflang="it" lang="it">Italiano</a> · <a href="../nl/index.html" hreflang="nl" lang="nl">Nederlands</a> · <a href="../pt-br/index.html" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> · <a href="../ru/index.html" hreflang="ru" lang="ru">Русский</a> · <a href="../ja/index.html" hreflang="ja" lang="ja">日本語</a> · <a href="../ko/index.html" hreflang="ko" lang="ko">한국어</a></p></div>
+  </div>
+</footer>
+</body>
+</html>

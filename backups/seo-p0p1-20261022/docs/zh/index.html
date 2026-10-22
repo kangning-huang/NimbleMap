@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>凌波微图 NimbleMap：下载的地图数据，拖进来就能看</title>
+<meta name="description" content="一款免费的 Mac 应用，几秒钟就把你下载的地图数据变成地图：Shapefile、GeoPackage、NetCDF、GeoTIFF、GPX、KML，以及带坐标的 CSV。不用学 GIS，什么都不用设置。">
+<link rel="canonical" href="https://nimblemap.com/zh/">
+<link rel="alternate" hreflang="en" href="https://nimblemap.com/">
+<link rel="alternate" hreflang="zh-Hans" href="https://nimblemap.com/zh/">
+<link rel="alternate" hreflang="de" href="https://nimblemap.com/de/">
+<link rel="alternate" hreflang="es" href="https://nimblemap.com/es/">
+<link rel="alternate" hreflang="fr" href="https://nimblemap.com/fr/">
+<link rel="alternate" hreflang="it" href="https://nimblemap.com/it/">
+<link rel="alternate" hreflang="nl" href="https://nimblemap.com/nl/">
+<link rel="alternate" hreflang="pt-BR" href="https://nimblemap.com/pt-br/">
+<link rel="alternate" hreflang="ru" href="https://nimblemap.com/ru/">
+<link rel="alternate" hreflang="ja" href="https://nimblemap.com/ja/">
+<link rel="alternate" hreflang="ko" href="https://nimblemap.com/ko/">
+<link rel="alternate" hreflang="x-default" href="https://nimblemap.com/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="凌波微图 NimbleMap">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:title" content="凌波微图 NimbleMap：在网上找到了地图数据？拖进凌波微图就能看。">
+<meta property="og:description" content="Shapefile、GeoPackage、NetCDF、GeoTIFF、GPX、KML、带坐标的 CSV：凌波微图几秒钟就把它们变成地图。Mac 版 · 免费。">
+<meta property="og:url" content="https://nimblemap.com/zh/">
+<meta property="og:image" content="https://nimblemap.com/img/open-storms.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="../assets/logo.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../assets/site.css?v=074">
+<link rel="stylesheet" href="../assets/data.css?v=3">
+<script src="../assets/site.js?v=074"></script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "凌波微图",
+  "alternateName": "NimbleMap",
+  "inLanguage": "zh-Hans",
+  "operatingSystem": "macOS 13+ (Apple silicon), Windows 10 1809+ / Windows 11 (x64)",
+  "applicationCategory": "UtilitiesApplication",
+  "description": "一款免费的 Mac 应用，几秒钟就把你下载的地图数据变成地图：Shapefile、GeoPackage、NetCDF、GeoTIFF、GPX、KML，以及带坐标的 CSV。不用学 GIS，什么都不用设置。",
+  "isAccessibleForFree": true,
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "CNY" }
+}
+</script>
+</head>
+<body>
+<header class="site-head">
+  <div class="wrap">
+    <a class="brand" href="index.html"><img src="../assets/logo.svg" alt="" width="30" height="30">凌波微图<span class="brand-en" lang="en">NimbleMap</span></a>
+    <nav class="nav" aria-label="网站导航">
+      <a href="index.html" aria-current="page">首页</a>
+      <a href="index.html#examples">示例</a>
+      <a href="data.html">数据</a>
+      <a href="help.html">帮助</a>
+      <a href="download.html">下载</a>
+      <details class="lang-menu">
+        <summary aria-label="语言：简体中文" title="语言"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.6 2.6 3.9 5.6 3.9 9s-1.3 6.4-3.9 9c-2.6-2.6-3.9-5.6-3.9-9S9.4 5.6 12 3z"/></svg><span>中文</span></summary>
+        <ul>
+          <li><a href="../index.html" hreflang="en" lang="en">English</a></li>
+          <li><a href="index.html" hreflang="zh-Hans" lang="zh-Hans" aria-current="true">简体中文</a></li>
+          <li><a href="../de/index.html" hreflang="de" lang="de">Deutsch</a></li>
+          <li><a href="../es/index.html" hreflang="es" lang="es">Español</a></li>
+          <li><a href="../fr/index.html" hreflang="fr" lang="fr">Français</a></li>
+          <li><a href="../it/index.html" hreflang="it" lang="it">Italiano</a></li>
+          <li><a href="../nl/index.html" hreflang="nl" lang="nl">Nederlands</a></li>
+          <li><a href="../pt-br/index.html" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a></li>
+          <li><a href="../ru/index.html" hreflang="ru" lang="ru">Русский</a></li>
+          <li><a href="../ja/index.html" hreflang="ja" lang="ja">日本語</a></li>
+          <li><a href="../ko/index.html" hreflang="ko" lang="ko">한국어</a></li>
+        </ul>
+      </details>
+      <button class="theme-btn" type="button" aria-label="切换深浅色"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M5.3 18.7l1.4-1.4M17.3 6.7l1.4-1.4"/></svg></button>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="hero contours drop-hero">
+  <div class="wrap hero-grid">
+    <div>
+      <p class="eyebrow">Mac 和 Windows 免费使用</p>
+      <h1>在网上找到了地图数据？拖进凌波微图就能看。</h1>
+      <p class="lede">Shapefile、GeoPackage、NetCDF、GeoTIFF、GPX、KML、带坐标的 CSV：就是你从 NASA、美国地质调查局（USGS）或城市开放数据平台下载的那些文件。凌波微图几秒钟就把它们变成地图。不用学 GIS，什么都不用设置。</p>
+      <p class="hero-how">把文件拖进凌波微图；Shapefile、GeoPackage 和 NetCDF 文件也可以直接双击打开。</p>
+      <div class="actions">
+        <a class="btn btn-primary btn-get" href="https://gitcode.com/KN-Huang/NimbleMap/releases/download/v0.7.3/NimbleMap-macos-arm64.dmg" download>免费下载 Mac 版</a>
+        <a class="btn btn-quiet btn-windows" href="https://github.com/kangning-huang/NimbleMap/releases/download/v0.7.1/NimbleMap-windows-x64-setup.exe" download>下载 Windows 版</a>
+        <a class="btn btn-quiet" href="#data">去哪里找数据</a>
+      </div>
+      <p class="desktop-platforms">支持 Mac（Apple 芯片，macOS 13 或更高版本）和 Windows 10/11（x64）。</p>
+      <p class="dl-fine"><strong>Mac:</strong> 免费 · 约 109 MB · macOS 13 及以上 · Apple 芯片 · 断网可用</p>
+    </div>
+    <div class="hero-shot showcase drop-scene" data-rotate="3500">
+      <figure class="frame stage">
+        <img class="slide is-on" src="../img/open-storms.jpg" alt="凌波微图打开了文件 IBTrACS_storm_tracks_1980-2026.shp：亚洲和太平洋上空的 4999 条风暴路径，按最大风速着色，图层卡片上列出了文件名和图例。" width="1600" height="996">
+        <img class="slide" src="../img/open-earthquakes.jpg" alt="凌波微图打开了 usgs_earthquakes_M6plus_1900-2026.gpkg：环太平洋的 14537 次地震，按震级着色。" width="1600" height="996" loading="lazy" aria-hidden="true">
+        <img class="slide" src="../img/open-heatwave.jpg" alt="凌波微图打开了 GDO_heatwave_intensity_JJA_2023.nc，停在 2023 年 7 月 16 日：三个大洲上的热浪强度以红色显示，地图下方是时间滑块。" width="1600" height="996" loading="lazy" aria-hidden="true">
+        <img class="slide" src="../img/open-relief.jpg" alt="凌波微图打开了 ETOPO_2022_relief_30min.tif：用渐变色显示全球陆地和海底的高程。" width="1600" height="996" loading="lazy" aria-hidden="true">
+        <img class="slide" src="../img/open-volcanoes.jpg" alt="凌波微图打开了 NCEI_volcano_locations.csv：环太平洋火山带周围的 1609 座火山显示为点，按海拔着色。" width="1600" height="996" loading="lazy" aria-hidden="true">
+      </figure>
+      <svg class="drop-arrow" viewBox="0 0 110 70" aria-hidden="true"><path d="M6 64C26 30 56 14 98 10"/><path class="head" d="M88 3l11 7-10 8"/></svg>
+      <div class="files" role="group" aria-label="一个装满下载来的地图文件的文件夹：选一个，看看它在凌波微图里打开的样子">
+        <p class="files-head"><svg class="folder" viewBox="0 0 20 20" aria-hidden="true"><path d="M2 5.5A1.5 1.5 0 0 1 3.5 4h4l1.6 1.8h7.4A1.5 1.5 0 0 1 18 7.3v7.2a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 2 14.5z"/></svg><span>地图数据</span><button type="button" class="pause" aria-label="暂停轮播" aria-pressed="false"><svg viewBox="0 0 16 16" aria-hidden="true"><rect class="bars" x="4" y="3" width="2.6" height="10" rx="1"/><rect class="bars" x="9.4" y="3" width="2.6" height="10" rx="1"/><path class="play" d="M5 3.2v9.6a.6.6 0 0 0 .9.5l7.4-4.8a.6.6 0 0 0 0-1L5.9 2.7a.6.6 0 0 0-.9.5z"/></svg></button></p>
+        <button type="button" class="kind file" data-i="0" data-caption="IBTrACS_storm_tracks_1980-2026.shp：4999 条风暴路径，按最大风速着色" aria-pressed="true"><span class="ext">SHP</span><span class="fname">IBTrACS_storm_tracks_1980-2026.shp</span><span class="fsize">5.3 MB</span><svg class="grab" viewBox="0 0 20 20" aria-hidden="true"><path d="M5 2.5l10 7.2-4.4.7 2.6 5.3-2.2 1-2.5-5.3L5 14.6z"/></svg></button>
+        <button type="button" class="kind file" data-i="1" data-caption="usgs_earthquakes_M6plus_1900-2026.gpkg：14537 次大地震，按震级着色" aria-pressed="false"><span class="ext">GPKG</span><span class="fname">usgs_earthquakes_M6plus_1900-2026.gpkg</span><span class="fsize">2.2 MB</span><svg class="grab" viewBox="0 0 20 20" aria-hidden="true"><path d="M5 2.5l10 7.2-4.4.7 2.6 5.3-2.2 1-2.5-5.3L5 14.6z"/></svg></button>
+        <button type="button" class="kind file" data-i="2" data-caption="GDO_heatwave_intensity_JJA_2023.nc：逐日热浪网格，带时间滑块" aria-pressed="false"><span class="ext">NC</span><span class="fname">GDO_heatwave_intensity_JJA_2023.nc</span><span class="fsize">12.6 MB</span><svg class="grab" viewBox="0 0 20 20" aria-hidden="true"><path d="M5 2.5l10 7.2-4.4.7 2.6 5.3-2.2 1-2.5-5.3L5 14.6z"/></svg></button>
+        <button type="button" class="kind file" data-i="3" data-caption="ETOPO_2022_relief_30min.tif：全球陆地和海底的高程" aria-pressed="false"><span class="ext">TIF</span><span class="fname">ETOPO_2022_relief_30min.tif</span><span class="fsize">375 KB</span><svg class="grab" viewBox="0 0 20 20" aria-hidden="true"><path d="M5 2.5l10 7.2-4.4.7 2.6 5.3-2.2 1-2.5-5.3L5 14.6z"/></svg></button>
+        <button type="button" class="kind file" data-i="4" data-caption="NCEI_volcano_locations.csv：1609 座火山，按海拔着色" aria-pressed="false"><span class="ext">CSV</span><span class="fname">NCEI_volcano_locations.csv</span><span class="fsize">106 KB</span><svg class="grab" viewBox="0 0 20 20" aria-hidden="true"><path d="M5 2.5l10 7.2-4.4.7 2.6 5.3-2.2 1-2.5-5.3L5 14.6z"/></svg></button>
+      </div>
+      <p class="kind-caption">IBTrACS_storm_tracks_1980-2026.shp：4999 条风暴路径，按最大风速着色</p>
+    </div>
+  </div>
+</section>
+
+<section class="film-band" id="film">
+  <div class="wrap">
+    <div class="hero-film">
+      <figure class="frame film">
+        <video class="film-loop" autoplay muted loop playsinline preload="metadata" poster="../img/hero-poster-zh.jpg?v=2" width="1280" height="720" aria-label="75 秒的凌波微图短片：把地图文件拖进来打开，在近 5000 条台风路径中搜索，点开一次地震，逐日播放夏季热浪，再用 Pro 回答一个问题。"><source src="../video/hero-loop-zh.mp4?v=2" type="video/mp4"></video>
+        <img class="film-still" src="../img/hero-poster-zh.jpg?v=2" alt="75 秒的凌波微图短片：把地图文件拖进来打开，在近 5000 条台风路径中搜索，点开一次地震，逐日播放夏季热浪，再用 Pro 回答一个问题。" width="1280" height="720" loading="lazy">
+        <button type="button" class="film-pause" aria-pressed="false"><svg viewBox="0 0 16 16" aria-hidden="true"><rect class="bars" x="4" y="3" width="2.6" height="10" rx="1"/><rect class="bars" x="9.4" y="3" width="2.6" height="10" rx="1"/><path class="play" d="M5 3.2v9.6a.6.6 0 0 0 .9.5l7.4-4.8a.6.6 0 0 0 0-1L5.9 2.7a.6.6 0 0 0-.9.5z"/></svg></button>
+      </figure>
+      <p class="film-caption">75 秒看懂凌波微图：拖入文件，探索数据，向它提问。</p>
+    </div>
+  </div>
+</section>
+
+<section id="data">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">免费数据</p>
+      <h2>去哪里找数据</h2>
+      <p class="lede">精心挑选的公开数据集，从实时地震到罗马道路。大多数点一下就能下载。</p>
+    </div>
+    <div class="ds-grid ds-teaser">
+        <article class="ds">
+          <img class="ds-art" src="../img/data-laws/earthquakes.svg?v=4" alt="" width="320" height="180" loading="lazy" decoding="async">
+          <h3>实时地震</h3>
+          <p class="ds-src">美国地质调查局（USGS）</p>
+          <div class="ds-actions"><a class="ds-get" href="https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_month.csv" download aria-label="下载 CSV · 2 MB"><svg class="dl-ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 2v8m0 0L4.8 6.8M8 10l3.2-3.2M3 13h10"/></svg><span>CSV · 2 MB</span></a><a class="ds-more" href="https://earthquake.usgs.gov/earthquakes/feed/v1.0/csv.php" rel="noopener" target="_blank">来源页面<span aria-hidden="true"> ↗</span></a></div>
+        </article>
+        <article class="ds">
+          <img class="ds-art" src="../img/data-laws/tornadoes.svg?v=4" alt="" width="320" height="180" loading="lazy" decoding="async">
+          <h3>1950 年以来美国的每一场龙卷风</h3>
+          <p class="ds-src">美国国家海洋和大气管理局（NOAA）风暴预报中心</p>
+          <div class="ds-actions"><a class="ds-get" href="https://www.spc.noaa.gov/gis/svrgis/zipped/1950-2025-torn-aspath.zip" download aria-label="下载 Shapefile（zip） · 5 MB"><svg class="dl-ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 2v8m0 0L4.8 6.8M8 10l3.2-3.2M3 13h10"/></svg><span>Shapefile · 5 MB</span></a><a class="ds-more" href="https://www.spc.noaa.gov/gis/svrgis/" rel="noopener" target="_blank">来源页面<span aria-hidden="true"> ↗</span></a></div>
+        </article>
+        <article class="ds">
+          <img class="ds-art" src="../img/data-laws/precipitation.svg?v=4" alt="" width="320" height="180" loading="lazy" decoding="async">
+          <h3>1979 年以来全球的雨雪</h3>
+          <p class="ds-src">GPCP v2.3（经 NOAA PSL 提供）</p>
+          <div class="ds-actions"><a class="ds-get" href="https://downloads.psl.noaa.gov/Datasets/gpcp/precip.mon.mean.nc" download aria-label="下载 NetCDF · 20 MB"><svg class="dl-ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 2v8m0 0L4.8 6.8M8 10l3.2-3.2M3 13h10"/></svg><span>NetCDF · 20 MB</span></a><a class="ds-more" href="https://psl.noaa.gov/data/gridded/data.gpcp.html" rel="noopener" target="_blank">来源页面<span aria-hidden="true"> ↗</span></a></div>
+        </article>
+        <article class="ds">
+          <img class="ds-art" src="../img/data-laws/roman-roads.svg?v=4" alt="" width="320" height="180" loading="lazy" decoding="async">
+          <h3>罗马帝国的道路</h3>
+          <p class="ds-src">Itiner-e，de Soto 等，2025（Zenodo）</p>
+          <div class="ds-actions"><a class="ds-get" href="https://zenodo.org/records/17122148/files/itinere_roads.gpkg?download=1" download aria-label="下载 GeoPackage · 34 MB"><svg class="dl-ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 2v8m0 0L4.8 6.8M8 10l3.2-3.2M3 13h10"/></svg><span>GeoPackage · 34 MB</span></a><a class="ds-more" href="https://zenodo.org/records/17122148" rel="noopener" target="_blank">来源页面<span aria-hidden="true"> ↗</span></a></div>
+        </article>
+    </div>
+    <p class="more-link"><a class="btn btn-quiet" href="data.html">查看全部 34 个数据集 →</a></p>
+  </div>
+</section>
+
+<section id="formats">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">能打开什么</p>
+      <h2>就是你平时真正会下载的那些文件</h2>
+      <p class="lede">把文件拖进凌波微图，它就会以正确的投影落在正确的位置，马上可以探索。</p>
+    </div>
+    <ul class="formats">
+      <li><p class="exts"><span>.shp</span></p><h3>Shapefile</h3><p>边界、道路、风暴路径。记得把 .dbf、.shx 和 .prj 文件放在它旁边。</p></li>
+      <li><p class="exts"><span>.zip</span></p><h3>压缩的 Shapefile</h3><p>直接打开，不用解压。</p></li>
+      <li><p class="exts"><span>.gpkg</span></p><h3>GeoPackage</h3><p>一个整洁的文件，可以装下很多图层。</p></li>
+      <li><p class="exts"><span>.geojson</span><span>.json</span></p><h3>GeoJSON</h3><p>网络上通用的地图格式，开放数据平台和 API 常用。</p></li>
+      <li><p class="exts"><span>.csv</span><span>.tsv</span><span>.xlsx</span></p><h3>表格</h3><p>带经纬度列的 CSV、TSV 或 Excel。</p></li>
+      <li><p class="exts"><span>.kml</span><span>.kmz</span></p><h3>KML 和 KMZ</h3><p>来自 Google Earth 的地标、路径和区域。</p></li>
+      <li><p class="exts"><span>.gpx</span></p><h3>GPX</h3><p>手表或手机记录的跑步、骑行和徒步轨迹。</p></li>
+      <li><p class="exts"><span>.tif</span><span>.tiff</span></p><h3>GeoTIFF</h3><p>高程、土地覆盖、卫星影像和无人机影像。</p></li>
+      <li><p class="exts"><span>.nc</span></p><h3>NetCDF</h3><p>气候和天气网格，用时间滑块播放。</p></li>
+    </ul>
+    <p class="formats-note">双击 Shapefile、GeoPackage 和 NetCDF 文件会在凌波微图里打开。其他文件双击会用别的应用打开，所以请把它们拖进凌波微图，或者右键 › 打开方式 › 凌波微图。</p>
+  </div>
+</section>
+
+<section id="principles">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">打开之后</p>
+      <h2>然后，尽情探索</h2>
+    </div>
+    <div class="principle-shots four">
+      <div class="principle">
+        <figure class="frame"><img src="../img/open-zoom.jpg" alt="放大后的南海和菲律宾一带，成千上万条风暴路径穿过，按最大风速着色。" loading="lazy" width="800" height="500"></figure>
+        <svg class="p-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5 21 21M10.5 7.5v6M7.5 10.5h6"/></svg><h3>缩放和平移</h3>
+        <p>滚动、双指缩放、拖动，从整个地球一直看到一段海岸。</p>
+      </div>
+      <div class="principle">
+        <figure class="frame"><img src="../img/open-search.jpg" alt="图层卡片的搜索框里输入了“Haiyan”：找到 3 个，地图上三条名叫 Haiyan 的风暴路径加粗显示。" loading="lazy" width="800" height="500"></figure>
+        <svg class="p-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 6h9M3.5 11h6M3.5 16h5"/><circle cx="15.5" cy="13.5" r="4"/><path d="m18.5 16.5 3 3"/></svg><h3>搜索地名或你的数据</h3>
+        <p>输入城市名就飞过去，输入一个名字就在文件里找到它：比如这里，每一场叫 Haiyan（海燕）的风暴。</p>
+      </div>
+      <div class="principle">
+        <figure class="frame"><img src="../img/open-click.jpg" alt="对象卡片：2011 年日本东北大地震的 9.10 级震级高于 14537 次地震中的 99%。" loading="lazy" width="800" height="500"></figure>
+        <svg class="p-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5.5A1.5 1.5 0 0 1 5.5 4h13A1.5 1.5 0 0 1 20 5.5v9a1.5 1.5 0 0 1-1.5 1.5H10l-4.2 3.6V16H5.5A1.5 1.5 0 0 1 4 14.5z"/><path d="M10.2 8.4a1.9 1.9 0 1 1 2.6 1.8c-.5.2-.8.6-.8 1.1v.4"/><circle cx="12" cy="13.6" r=".6" class="dot"/></svg><h3>点一下任何东西</h3>
+        <p>看看它是什么、和同类比起来怎么样。2011 年日本东北大地震比 14537 次地震中的 99% 都强。</p>
+      </div>
+      <div class="principle">
+        <figure class="frame"><img src="../img/open-time.jpg" alt="2023 年 7 月 16 日美洲、非洲和欧洲的热浪强度，时间滑块停在第 46 步（共 92 步）。" loading="lazy" width="800" height="500"></figure>
+        <svg class="p-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M10 8.5v7l5.5-3.5z"/></svg><h3>播放时间</h3>
+        <p>带时间步的文件会有一个滑块。点一下播放，看一整个夏天的热浪怎样移动。</p>
+      </div>
+    </div>
+    <p class="also">每个数字都来自你的全部数据，而不只是屏幕上看得见的那一部分；每一步都能撤销。</p>
+  </div>
+</section>
+
+<section class="pro-band">
+  <div class="wrap">
+    <span class="tag">PRO</span>
+    <p><strong>凌波微图 Pro：</strong>用大白话向你的数据提问。在应用里登录即可解锁，注册账号即可免费使用。</p>
+    <a class="pro-more" href="pro.html">Pro 版多了什么 →</a>
+  </div>
+</section>
+
+<section id="examples">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">练一练</p>
+      <h2>第一次接触地图？先用八个内置示例练练手</h2>
+      <p class="lede">不用下载：它们就装在应用里。</p>
+    </div>
+    <div class="features mini">
+      <article class="example feature">
+        <figure class="frame"><img src="../img/typhoons-card.jpg" alt="凌波微图显示亚洲和太平洋上空的 4999 条台风路径；选中了台风“海燕”，卡片显示它 170 节的最大风速比有记录的 4547 场风暴中的 99% 都强。" loading="lazy" width="1600" height="996"></figure>
+        <div class="feature-body">
+          <h3>台风与飓风</h3>
+          <p>1980 年以来的 4999 条风暴路径。台风“海燕”170 节的最大风速，比 4547 场风暴中的 99% 都强。</p>
+          <a class="ex-link" href="workflow-typhoons.html">一步一步试试看 →</a>
+          <span class="coords">IBTrACS v04r01</span>
+        </div>
+      </article>
+      <article class="example feature">
+        <figure class="frame"><img src="../img/walls-satellite.jpg" alt="1866 年北京的城墙叠在卫星影像上，卡片显示城内面积 35.3 平方公里，比 1789 座城池中的 99% 都大。" loading="lazy" width="1600" height="996"></figure>
+        <div class="feature-body">
+          <h3>1866 年的中国城墙</h3>
+          <p>1789 座城池的城墙。北京城内面积 35.3&nbsp;平方公里，比其中 99% 的城池都大。</p>
+          <a class="ex-link" href="workflow-walled-cities.html">一步一步试试看 →</a>
+          <span class="coords">Xue 等，2021 · CC BY 4.0</span>
+        </div>
+      </article>
+      <article class="example feature">
+        <figure class="frame"><img src="../img/heatwave-click.jpg" alt="2023 年 7 月 16 日欧洲和北非的热浪强度，选中了一个格子，下方是时间滑块。" loading="lazy" width="1600" height="996"></figure>
+        <div class="feature-body">
+          <h3>2023 年夏季热浪</h3>
+          <p>点一下播放，看热浪怎样在全球蔓延、移动。</p>
+          <a class="ex-link" href="workflow-heatwave.html">一步一步试试看 →</a>
+          <span class="coords">哥白尼 GDO / JRC · CC BY 4.0</span>
+        </div>
+      </article>
+    </div>
+    <p class="also">还内置了：1900 年以来的地震、火山、机场、发电厂、世界城市、国家和地形。</p>
+  </div>
+</section>
+
+<section id="share">
+  <div class="wrap share-grid">
+    <div class="section-head">
+      <p class="eyebrow">分享</p>
+      <h2>把发现分享出去</h2>
+      <p class="lede">加上标题、图例和数据来源，导出成幻灯片、报告或社交媒体上用的图片。</p>
+    </div>
+    <figure class="frame"><img src="../img/heatwave-export.jpg" alt="“导出地图图片”面板：2023 年热浪地图带图例、经纬度标注和数据来源，尺寸可选幻灯片、A4 报告或方形图片。" loading="lazy" width="1600" height="996"></figure>
+  </div>
+</section>
+
+<section id="download" class="final-cta contours">
+  <div class="wrap">
+    <img class="cta-icon" src="../img/icon-256.png" alt="" width="96" height="96">
+    <h2>探索地球的真实数据。</h2>
+    <div class="cta-actions">
+      <a class="btn btn-primary btn-get" href="https://gitcode.com/KN-Huang/NimbleMap/releases/download/v0.7.3/NimbleMap-macos-arm64.dmg" download>免费下载 Mac 版</a>
+      <a class="btn btn-quiet btn-windows" href="https://github.com/kangning-huang/NimbleMap/releases/download/v0.7.1/NimbleMap-windows-x64-setup.exe" download>下载 Windows 版</a>
+    </div>
+    <p class="desktop-platforms">支持 Mac（Apple 芯片，macOS 13 或更高版本）和 Windows 10/11（x64）。</p>
+    <p class="dl-fine"><strong>Mac:</strong> 免费 · 约 109 MB · macOS 13 及以上 · Apple 芯片 · 断网可用</p>
+    <div class="share" role="group" aria-label="分享"><span class="share-label">分享</span><a class="share-btn" data-net="x" href="#" target="_blank" rel="noopener" aria-label="分享: X">X</a><a class="share-btn" data-net="facebook" href="#" target="_blank" rel="noopener" aria-label="分享: Facebook">Facebook</a><a class="share-btn" data-net="reddit" href="#" target="_blank" rel="noopener" aria-label="分享: Reddit">Reddit</a><a class="share-btn" data-net="linkedin" href="#" target="_blank" rel="noopener" aria-label="分享: LinkedIn">LinkedIn</a></div>
+    <p class="built-on">凌波微图基于 <a href="https://github.com/opengeos/RustGIS">RustGIS</a> 构建。</p>
+  </div>
+</section>
+</main>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <div>
+      <p><strong>凌波微图 NimbleMap</strong> · 以地图为中心的应用，基于 RustGIS。</p>
+      <p>截图中的地图数据：© OpenStreetMap 贡献者（ODbL），经 Protomaps 提供；Natural Earth（公有领域）；NASA “蓝色弹珠” 卫星影像（NASA Earth Observatory，GIBS）。示例数据：NOAA IBTrACS；Xue 等，2021（CC BY 4.0）；哥白尼全球干旱观测站 / JRC（CC BY 4.0）；美国地质调查局（USGS）；NOAA ETOPO 2022 与 NCEI 火山数据。</p>
+    </div>
+    <div class="foot-nav"><p class="foot-links"><a href="help.html">帮助</a> · <a href="glossary.html">术语表</a> · <a href="data.html">数据</a> · <a href="pro.html">Pro 版</a> · <a href="https://github.com/kangning-huang/NimbleMap/blob/main/CHANGELOG.md">更新日志</a></p><p class="foot-note">凌波微图是独立项目，与苹果公司、Esri 及 QGIS 项目均无关联。</p><p class="foot-langs"><a href="../index.html" hreflang="en" lang="en">English</a> · <a href="../de/index.html" hreflang="de" lang="de">Deutsch</a> · <a href="../es/index.html" hreflang="es" lang="es">Español</a> · <a href="../fr/index.html" hreflang="fr" lang="fr">Français</a> · <a href="../it/index.html" hreflang="it" lang="it">Italiano</a> · <a href="../nl/index.html" hreflang="nl" lang="nl">Nederlands</a> · <a href="../pt-br/index.html" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> · <a href="../ru/index.html" hreflang="ru" lang="ru">Русский</a> · <a href="../ja/index.html" hreflang="ja" lang="ja">日本語</a> · <a href="../ko/index.html" hreflang="ko" lang="ko">한국어</a></p></div>
+  </div>
+</footer>
+</body>
+</html>
