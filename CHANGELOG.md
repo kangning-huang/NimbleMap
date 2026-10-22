@@ -8,6 +8,21 @@ Found a bug or want something? [Open an issue](https://github.com/kangning-huang
 
 ## [Unreleased]
 
+## [0.7.4] - 2026-10-22 (preview)
+
+For Macs with Apple silicon running macOS 13 or later. Free.
+[Download](https://github.com/kangning-huang/NimbleMap/releases/latest/download/NimbleMap-macos-arm64.dmg)
+· If you have 0.7.2 or 0.7.3, choose **Update Now** in the app (or NimbleMap › Check for Updates…).
+
+- **More ways to sign in:** Continue with Apple, Google, GitHub, LinkedIn or X, besides email.
+- **Email sign-in works for everyone.** The email now comes from NimbleMap (subject “Your NimbleMap
+  sign-in code”) with a 6-digit code to type into the app, or a link to click on the same Mac.
+- **The table is never covered.** With the data table open, the Ask box (or the sign-in card), the map
+  buttons, the scale bar and notices move above it.
+- **About NimbleMap** now credits the developer, Kangning Huang, Assistant Professor of Environmental
+  Studies at NYU Shanghai, with links to kangning-huang.com and nimblemap.com.
+- 登录方式更多：Apple、Google、GitHub、LinkedIn、X 或邮箱；登录邮件来自 NimbleMap，附 6 位验证码。打开数据表时，提问框和地图按钮不再遮挡表格。“关于凌波微图”加入开发者介绍。
+
 ## [0.7.3] - 2026-10-21 (preview)
 
 For Macs with Apple silicon running macOS 13 or later. Free.
