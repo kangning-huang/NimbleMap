@@ -19,6 +19,7 @@ Canonical repo / releases: https://github.com/kangning-huang/NimbleMap
 - [Glossary](https://nimblemap.com/glossary.html)
 - [Pro / Ask](https://nimblemap.com/pro.html)
 - [About](https://nimblemap.com/about.html)
+- [About (ZH 简体中文)](https://nimblemap.com/zh/about.html)
 - [Privacy](https://nimblemap.com/privacy.html)
 - [Terms](https://nimblemap.com/terms.html)
 - [Workflow: typhoons](https://nimblemap.com/workflow-typhoons.html)
