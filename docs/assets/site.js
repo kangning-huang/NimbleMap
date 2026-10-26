@@ -195,3 +195,12 @@ document.addEventListener("DOMContentLoaded", function () {
     if (alt) { alt.href = macHref; alt.textContent = alt.getAttribute("data-mac-label"); }
   }
 });
+
+// GEOInflow browser analytics (stats.kangning-huang.com) — loaded once for all locales.
+(function () {
+  var s = document.createElement("script");
+  s.defer = true;
+  s.src = "https://stats.kangning-huang.com/script.js";
+  s.setAttribute("data-website-id", "2d787adb-e13c-4099-90e7-cbe7216bbcec");
+  (document.head || document.documentElement).appendChild(s);
+})();
