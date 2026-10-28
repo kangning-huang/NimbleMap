@@ -8,6 +8,21 @@ Found a bug or want something? [Open an issue](https://github.com/kangning-huang
 
 ## [Unreleased]
 
+## [0.7.5] - 2026-10-28 (preview)
+
+For Macs with Apple silicon running macOS 13 or later. Free.
+[Download](https://github.com/kangning-huang/NimbleMap/releases/latest/download/NimbleMap-macos-arm64.dmg)
+· If you have 0.7.2 or later, choose **Update Now** in the app (or NimbleMap › Check for Updates…).
+
+- **Ask can add things up inside a place.** “What is the total area of the walled cities in
+  Shandong?” now answers with the count and the total area in km² (111 walled cities, 109 km²),
+  measured from the shapes, plus the total, mean and range of each number field. Lines get their
+  total length.
+- **Ask can look across time.** For a file with a time slider (NetCDF), “Find the hottest heatwave
+  day in Shanghai” ranks every day at that place and puts the answer first (14 July 2023).
+- Result cards call a layer such as “walled cities 1866” “walled cities”, not “areas”.
+- 提问框可以统计一个地方范围内的数量、总面积（平方公里）和数值总和，例如“山东省内古城墙的总面积”；也能在带时间轴的 NetCDF 文件中逐日比较，例如“上海热浪最强的是哪一天”。
+
 ## [0.7.4] - 2026-10-22 (preview)
 
 For Macs with Apple silicon running macOS 13 or later. Free.
