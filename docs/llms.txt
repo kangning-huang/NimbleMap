@@ -35,7 +35,7 @@ Each locale lives under https://nimblemap.com/<lang>/ with hreflang on the pages
 ## Downloads
 
 - [Mac DMG (latest)](https://github.com/kangning-huang/NimbleMap/releases/latest/download/NimbleMap-macos-arm64.dmg)
-- Windows x64 installer: site currently links the tagged `v0.7.1` Windows build (`NimbleMap-windows-x64-setup.exe`); a newer Windows build is deferred until the next Windows release (schema/Mac may show 0.7.4).
+- Windows x64 installer: site currently links the tagged `v0.7.1` Windows build (`NimbleMap-windows-x64-setup.exe`); a newer Windows build is deferred until the next Windows release (schema/Mac show 0.7.5).
 
 ## Product facts for agents
 
