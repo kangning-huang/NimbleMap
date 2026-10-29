@@ -1,5 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url><loc>https://nimblemap.com/shapefile-viewer.html</loc><lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nimblemap.com/shapefile-viewer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nimblemap.com/shapefile-viewer.html"/>
+  </url>
+  <url><loc>https://nimblemap.com/geotiff-viewer.html</loc><lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nimblemap.com/geotiff-viewer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nimblemap.com/geotiff-viewer.html"/>
+  </url>
+  <url><loc>https://nimblemap.com/geojson-viewer.html</loc><lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nimblemap.com/geojson-viewer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nimblemap.com/geojson-viewer.html"/>
+  </url>
+  <url><loc>https://nimblemap.com/geopackage-viewer.html</loc><lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nimblemap.com/geopackage-viewer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nimblemap.com/geopackage-viewer.html"/>
+  </url>
+  <url><loc>https://nimblemap.com/netcdf-viewer.html</loc><lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nimblemap.com/netcdf-viewer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nimblemap.com/netcdf-viewer.html"/>
+  </url>
+  <url><loc>https://nimblemap.com/csv-to-map.html</loc><lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nimblemap.com/csv-to-map.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nimblemap.com/csv-to-map.html"/>
+  </url>
   <url><loc>https://nimblemap.com/compare/qgis.html</loc><lastmod>2026-10-29</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://nimblemap.com/compare/qgis.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://nimblemap.com/compare/qgis.html"/>
