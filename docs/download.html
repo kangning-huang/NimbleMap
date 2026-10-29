@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Open Shapefile, GeoJSON, CSV &amp; GeoTIFF on Mac or Windows · NimbleMap</title>
+<title>Open Shapefile, GeoPackage, GeoTIFF, NetCDF &amp; CSV on Mac or Windows · NimbleMap</title>
 <meta name="description" content="A free desktop app that opens Shapefile, GeoPackage, NetCDF, GeoTIFF, GeoJSON and latitude/longitude CSV files as a map: drag them into NimbleMap.…">
 <link rel="canonical" href="https://nimblemap.com/download.html">
 <link rel="alternate" hreflang="en" href="https://nimblemap.com/download.html">
@@ -21,7 +21,7 @@
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="NimbleMap">
 <meta property="og:locale" content="en_US">
-<meta property="og:title" content="Open Shapefile, GeoJSON, CSV & GeoTIFF on Mac or Windows, free">
+<meta property="og:title" content="Open Shapefile, GeoPackage, GeoTIFF, NetCDF & CSV on Mac or Windows, free">
 <meta property="og:description" content="Drag a map file into NimbleMap and it is on the map. Layers line up on their own, and your files never leave your computer.">
 <meta property="og:url" content="https://nimblemap.com/download.html">
 <meta property="og:image" content="https://nimblemap.com/img/walls-compare.jpg">
@@ -70,6 +70,63 @@
       "position": 2,
       "name": "Download",
       "item": "https://nimblemap.com/download.html"
+    }
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Is there free software to open a shapefile on Mac or Windows?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. NimbleMap is free. Double-click the .shp in Finder, or drag it or its .zip into NimbleMap. Keep the .dbf, .shx and .prj files next to it, since a shapefile is really a set of files."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why don't my CSV points show up on top of my shapefile?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Usually the shapefile is stored in a projected coordinate system while the CSV holds latitude and longitude. NimbleMap reads the shapefile's .prj and converts it so both line up."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why does Preview open my GeoTIFF but not on a map?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Preview and Photos treat a GeoTIFF as an ordinary image and ignore the location stored inside it. NimbleMap reads that location and draws the image in place."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need to know GIS or coordinate systems?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Files open without settings, and when the app has to guess something it tells you in one line and lets you change it."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are my files uploaded anywhere?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Not in the free app: everything is read, analysed and drawn on your computer, and it works offline."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is there a Windows version?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. NimbleMap is available for Mac (Apple silicon, macOS 13+) and Windows 10/11 (x64)."
+      }
     }
   ]
 }
@@ -152,12 +209,13 @@
       <h2>What it opens</h2>
     </div>
     <div class="formats">
-      <div id="shapefile"><h3>Shapefile (.shp)</h3><p>Keep the <code>.shp</code> with its <code>.dbf</code>, <code>.shx</code> and <code>.prj</code> beside it, or open the .zip they came in. Attributes show in a table and on a card when you click a shape. Older files in Chinese or other encodings are read with their <code>.cpg</code>.</p></div>
+      <div id="shapefile"><h3><a href="formats/shapefile.html">Shapefile (.shp)</a></h3><p>Keep the <code>.shp</code> with its <code>.dbf</code>, <code>.shx</code> and <code>.prj</code> beside it, or open the .zip they came in. Attributes show in a table and on a card when you click a shape. Older files in Chinese or other encodings are read with their <code>.cpg</code>.</p></div>
       <div id="geojson"><h3>GeoJSON</h3><p>Points, lines and polygons, with every property in the table.</p></div>
       <div id="csv"><h3>CSV and Excel</h3><p>Any table with latitude and longitude columns, or a WKT geometry column. A table without coordinates can be joined to places by a shared column, such as a country or district name.</p></div>
-      <div id="geotiff"><h3>GeoTIFF</h3><p>Elevation, temperature, land cover, satellite and drone imagery. Click a cell to read its value; colour it by value with a legend.</p></div>
-      <div id="netcdf"><h3>NetCDF</h3><p>Climate and weather grids, with a time slider to step or play through the days.</p></div>
-      <div id="more"><h3>Also</h3><p>GeoPackage, KML and KMZ from Google Earth, and GPX tracks from a phone or watch.</p></div>
+      <div id="geotiff"><h3><a href="formats/geotiff.html">GeoTIFF</a></h3><p>Elevation, temperature, land cover, satellite and drone imagery. Click a cell to read its value; colour it by value with a legend.</p></div>
+      <div id="netcdf"><h3><a href="formats/netcdf.html">NetCDF</a></h3><p>Climate and weather grids, with a time slider to step or play through the days.</p></div>
+      <div id="more"><h3>Also</h3><p><a href="formats/geopackage.html">GeoPackage</a>, KML and KMZ from Google Earth, and GPX tracks from a phone or watch.</p></div>
+      <p class="formats-note" style="grid-column:1/-1;margin-top:8px">Viewer landers: <a href="shapefile-viewer.html">Shapefile viewer</a> · <a href="geotiff-viewer.html">GeoTIFF viewer</a> · <a href="geojson-viewer.html">GeoJSON viewer</a> · <a href="geopackage-viewer.html">GeoPackage viewer</a> · <a href="netcdf-viewer.html">NetCDF viewer</a> · <a href="csv-to-map.html">CSV to map</a>.</p>
     </div>
   </div>
 </section>
@@ -227,7 +285,7 @@
     <div class="section-head">
       <p class="eyebrow">Honest comparison</p>
       <h2>NimbleMap or QGIS?</h2>
-      <p class="lede">QGIS is the free, full GIS, and a very good one. NimbleMap is for the times it is more than you need.</p>
+      <p class="lede">QGIS is the free, full GIS, and a very good one. NimbleMap is for the times it is more than you need. <a href="compare/qgis.html">Full comparison →</a></p>
     </div>
     <div class="tiers compare">
       <div class="tier">
@@ -291,7 +349,7 @@
       <p><strong>NimbleMap</strong> · a map-first app built on RustGIS.</p>
       <p>Screenshots show map data © OpenStreetMap contributors (ODbL) via Protomaps, Natural Earth (public domain), and NASA Blue Marble imagery (NASA Earth Observatory, GIBS). Example data: Xue et al. 2021 (CC BY 4.0).</p>
     </div>
-    <div class="foot-nav"><p class="foot-links"><a href="help.html">Help</a> · <a href="glossary.html">Glossary</a> · <a href="data.html">Data</a> · <a href="pro.html">Pro</a> · <a href="https://github.com/kangning-huang/NimbleMap/blob/main/CHANGELOG.md">Changelog</a> · <a href="about.html">About</a> · <a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a></p><p class="foot-note">NimbleMap is an independent project, not affiliated with Apple, Esri or the QGIS project.</p><p class="foot-langs"><a href="zh/download.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a> · <a href="de/download.html" hreflang="de" lang="de">Deutsch</a> · <a href="es/download.html" hreflang="es" lang="es">Español</a> · <a href="fr/download.html" hreflang="fr" lang="fr">Français</a> · <a href="it/download.html" hreflang="it" lang="it">Italiano</a> · <a href="nl/download.html" hreflang="nl" lang="nl">Nederlands</a> · <a href="pt-br/download.html" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> · <a href="ru/download.html" hreflang="ru" lang="ru">Русский</a> · <a href="ja/download.html" hreflang="ja" lang="ja">日本語</a> · <a href="ko/download.html" hreflang="ko" lang="ko">한국어</a></p></div>
+    <div class="foot-nav"><p class="foot-links"><a href="shapefile-viewer.html">Viewers</a> · <a href="formats/shapefile.html">Formats</a> · <a href="compare/qgis.html">vs QGIS</a> · <a href="help.html">Help</a> · <a href="glossary.html">Glossary</a> · <a href="data.html">Data</a> · <a href="pro.html">Pro</a> · <a href="https://github.com/kangning-huang/NimbleMap/blob/main/CHANGELOG.md">Changelog</a> · <a href="about.html">About</a> · <a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a></p><p class="foot-note">NimbleMap is an independent project, not affiliated with Apple, Esri or the QGIS project.</p><p class="foot-langs"><a href="zh/download.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a> · <a href="de/download.html" hreflang="de" lang="de">Deutsch</a> · <a href="es/download.html" hreflang="es" lang="es">Español</a> · <a href="fr/download.html" hreflang="fr" lang="fr">Français</a> · <a href="it/download.html" hreflang="it" lang="it">Italiano</a> · <a href="nl/download.html" hreflang="nl" lang="nl">Nederlands</a> · <a href="pt-br/download.html" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> · <a href="ru/download.html" hreflang="ru" lang="ru">Русский</a> · <a href="ja/download.html" hreflang="ja" lang="ja">日本語</a> · <a href="ko/download.html" hreflang="ko" lang="ko">한국어</a></p></div>
   </div>
 </footer>
 </body>
