@@ -195,3 +195,59 @@ document.addEventListener("DOMContentLoaded", function () {
     if (alt) { alt.href = macHref; alt.textContent = alt.getAttribute("data-mac-label"); }
   }
 });
+
+// First-touch source for AI / campaign attribution (Geektao GEO). Prefer utm_source, else referrer host.
+// Set window.NM_GA_MEASUREMENT_ID = 'G-XXXXXXXX' once GA4 exists; until then we only persist locally.
+(function () {
+  var KEY = 'nm-first-source';
+  function hostFromReferrer(ref) {
+    try { return new URL(ref).hostname.replace(/^www\./, ''); } catch (e) { return ''; }
+  }
+  function detect() {
+    try {
+      var q = new URLSearchParams(location.search);
+      var utm = (q.get('utm_source') || '').trim();
+      if (utm) return utm.toLowerCase();
+      var h = hostFromReferrer(document.referrer || '');
+      if (!h) return 'direct';
+      if (h === location.hostname.replace(/^www\./, '')) return 'direct';
+      return h.toLowerCase();
+    } catch (e) { return 'direct'; }
+  }
+  function read() {
+    try { return localStorage.getItem(KEY); } catch (e) { return null; }
+  }
+  function write(v) {
+    try { localStorage.setItem(KEY, v); } catch (e) { /* private */ }
+  }
+  var first = read();
+  if (!first) {
+    first = detect();
+    write(first);
+  }
+  window.__nmFirstSource = first;
+
+  var id = window.NM_GA_MEASUREMENT_ID;
+  if (!id || typeof id !== 'string' || id.indexOf('G-') !== 0) return;
+
+  var s = document.createElement('script');
+  s.async = true;
+  s.src = 'https://www.googletagmanager.com/gtag/js?id=' + encodeURIComponent(id);
+  document.head.appendChild(s);
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){ window.dataLayer.push(arguments); }
+  window.gtag = gtag;
+  gtag('js', new Date());
+  gtag('config', id, { send_page_view: true });
+  gtag('set', 'user_properties', { first_source: first });
+
+  document.addEventListener('click', function (ev) {
+    var a = ev.target && ev.target.closest ? ev.target.closest('a[data-cta]') : null;
+    if (!a || !window.gtag) return;
+    gtag('event', a.getAttribute('data-cta') === 'try-browser' ? 'try_browser_click' : 'download_click', {
+      first_source: first,
+      link_url: a.href,
+      page_path: location.pathname
+    });
+  }, true);
+})();
