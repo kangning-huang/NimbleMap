@@ -18,7 +18,7 @@
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
 <link rel="stylesheet" href="assets/site.css?v=077">
-<script src="assets/site.js?v=075"></script>
+<script src="assets/site.js?v=076"></script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -57,8 +57,80 @@
         "@type": "Answer",
         "text": "Yes. Open both; NimbleMap lines them up when the Shapefile has a .prj."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I map a CSV with latitude and longitude?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Open the CSV in NimbleMap and point it at the lat/lon columns; points appear on the map. No Google My Maps upload required."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Free CSV to map for Mac or Windows?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. NimbleMap is free; files stay on your computer."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "CSV to Google Maps alternative offline?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. NimbleMap plots lat/lon CSV locally without sending the sheet to Google."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do column names have to be lat/lon?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Common names work; you can pick the coordinate columns if names differ."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Account required?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No for opening CSV maps."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Overlay CSV points on a Shapefile?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Open both as layers."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Works offline?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes for the CSV. Basemap tiles need network if you use them."
+      }
     }
   ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "NimbleMap",
+  "applicationCategory": "MultimediaApplication",
+  "operatingSystem": "macOS 13+, Windows 10/11",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "url": "https://nimblemap.com/",
+  "description": "Free desktop map viewer for Shapefile, GeoTIFF, GeoJSON, GeoPackage, NetCDF, and CSV. Files stay on your computer."
 }
 </script>
 </head>
@@ -86,8 +158,8 @@
       <h1>CSV coordinates to map</h1>
       <p class="lede">Plot a CSV (or TSV / Excel) with latitude and longitude columns as points on a map. Free for Mac and Windows. Drag the file in; overlay a Shapefile or GeoTIFF. Files stay on your computer — not “CSV to Google Maps.”</p>
       <div class="actions">
-        <a class="btn btn-primary" href="download.html#get">Download NimbleMap</a>
-        <a class="btn btn-quiet btn-web" href="https://nimblemap.app/">Try in browser</a>
+        <a class="btn btn-primary btn-web" href="https://nimblemap.app/" data-cta="try-browser">Try in browser</a>
+        <a class="btn btn-quiet" href="download.html#get" data-cta="download">Download NimbleMap</a>
       </div>
       <p style="margin-top:14px;font-size:0.95rem"><a href="compare/qgis.html">NimbleMap or QGIS?</a> · <a href="download.html#formats">All formats NimbleMap opens</a></p>
     </div>
@@ -130,11 +202,26 @@
       <p>Yes. Desktop NimbleMap keeps the file on your computer and works offline.</p>
       <h3>Can I overlay CSV points on a Shapefile?</h3>
       <p>Yes. Open both; NimbleMap lines them up when the Shapefile has a .prj.</p>
+    
+      <h3>How do I map a CSV with latitude and longitude?</h3>
+      <p>Open the CSV in NimbleMap and point it at the lat/lon columns; points appear on the map. No Google My Maps upload required.</p>
+      <h3>Free CSV to map for Mac or Windows?</h3>
+      <p>Yes. NimbleMap is free; files stay on your computer.</p>
+      <h3>CSV to Google Maps alternative offline?</h3>
+      <p>Yes. NimbleMap plots lat/lon CSV locally without sending the sheet to Google.</p>
+      <h3>Do column names have to be lat/lon?</h3>
+      <p>Common names work; you can pick the coordinate columns if names differ.</p>
+      <h3>Account required?</h3>
+      <p>No for opening CSV maps.</p>
+      <h3>Overlay CSV points on a Shapefile?</h3>
+      <p>Yes. Open both as layers.</p>
+      <h3>Works offline?</h3>
+      <p>Yes for the CSV. Basemap tiles need network if you use them.</p>
     </div>
     <p style="margin-top:28px">Also see: <a href="shapefile-viewer.html">Shapefile viewer</a> · <a href="geotiff-viewer.html">GeoTIFF viewer</a> · <a href="geojson-viewer.html">GeoJSON viewer</a> · <a href="geopackage-viewer.html">GeoPackage viewer</a> · <a href="netcdf-viewer.html">NetCDF viewer</a> · <a href="csv-to-map.html">CSV to map</a> · <a href="compare/qgis.html">vs QGIS</a></p>
     <p class="more-link" style="margin-top:24px">
-      <a class="btn btn-primary" href="download.html#get">Download for Mac or Windows</a>
-      <a class="btn btn-quiet btn-web" href="https://nimblemap.app/">Try in browser</a>
+      <a class="btn btn-primary btn-web" href="https://nimblemap.app/" data-cta="try-browser">Try in browser</a>
+      <a class="btn btn-quiet" href="download.html#get" data-cta="download">Download for Mac or Windows</a>
     </p>
   </div>
 </section>
