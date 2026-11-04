@@ -227,6 +227,8 @@ document.addEventListener("DOMContentLoaded", function () {
   }
   window.__nmFirstSource = first;
 
+  // GA4 web stream for https://nimblemap.com (property nimblemap.com, 2026-11-04)
+  if (!window.NM_GA_MEASUREMENT_ID) window.NM_GA_MEASUREMENT_ID = 'G-WY5CR9DM9R';
   var id = window.NM_GA_MEASUREMENT_ID;
   if (!id || typeof id !== 'string' || id.indexOf('G-') !== 0) return;
 
