@@ -231,6 +231,11 @@ document.addEventListener("DOMContentLoaded", function () {
   if (!window.NM_GA_MEASUREMENT_ID) window.NM_GA_MEASUREMENT_ID = 'G-WY5CR9DM9R';
   var id = window.NM_GA_MEASUREMENT_ID;
   if (!id || typeof id !== 'string' || id.indexOf('G-') !== 0) return;
+  // Never inside the NimbleMap app (its Data tab shows data.html) or another app's web view: the
+  // iPhone app declares "Data Not Collected" on the App Store. A WKWebView's user agent has no
+  // "Safari/" token; the app also adds "NimbleMapApp".
+  var ua = navigator.userAgent || '';
+  if (/NimbleMapApp/.test(ua) || (/iPhone|iPad|iPod/.test(ua) && !/Safari\//.test(ua))) return;
 
   var s = document.createElement('script');
   s.async = true;
