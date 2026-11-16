@@ -50,4 +50,5 @@ People who downloaded a Shapefile, GeoTIFF, GeoJSON, GeoPackage, NetCDF, GPX, KM
 - Platforms: Mac (Apple silicon, macOS 13+) and Windows 10/11 (x64)
 - Formats: Shapefile, GeoPackage, NetCDF, GeoTIFF, GPX, KML, GeoJSON, CSV with coordinates
 - Free core; offline; no upload for file viewing
+- Built on the open-source RustGIS project (https://rustgis.app/). NimbleMap is a simple Mac and Windows viewer, not a full GIS like RustGIS or QGIS.
 - Do not invent pricing, formats, or OS support beyond this file
