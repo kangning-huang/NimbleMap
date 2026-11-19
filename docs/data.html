@@ -89,7 +89,7 @@
     <p class="eyebrow">Data to explore</p>
     <h1>Where can I find map data?</h1>
     <p class="lede">Start with the map data you already have, then try some of the best free public datasets. Each one opens in NimbleMap, and each comes with a line on what to look for.</p>
-    <p class="ds-host">NimbleMap doesn't host these files. Each link goes to the original source, so you always get the latest version and the publisher's own terms. Links were checked on 20 October 2026.</p>
+    <p class="ds-host">Except for the China provincial spicy-preference dataset hosted on this site, NimbleMap doesn't host these files. Every other link goes to the original source, so you always get the latest version and the publisher's own terms. Links were checked on 20 October 2026.</p>
   </div>
 </div>
 
@@ -112,7 +112,7 @@
       <a href="#energy">Energy &amp; industry <span>4</span></a>
       <a href="#people">Cities &amp; people <span>3</span></a>
       <a href="#transport">Transport <span>3</span></a>
-      <a href="#history">History &amp; culture <span>6</span></a>
+      <a href="#history">History &amp; culture <span>7</span></a>
       <a href="#nature">Nature &amp; wildlife <span>4</span></a>
       <a href="#sky">Space &amp; curiosities <span>3</span></a>
       <a href="#places">Everyday places <span>5</span></a>
@@ -361,6 +361,14 @@
         <p class="ds-why">Press Run (it takes about 30 seconds), then Download › CSV file. You get about 23,000 castles with a <code>geometry</code> column that NimbleMap reads as points. Change <code>Q23413</code> in the query to map lighthouses, monasteries or anything else.</p>
         <p class="ds-how">No ready-made file: the list is built by a query when you press Run. Then choose Download › CSV file.</p>
         <div class="ds-actions"><a class="ds-get" href="https://query.wikidata.org/#SELECT%20%3Fcastle%20%3Fname%20%3Fgeometry%20WHERE%20%7B%0A%20%20%3Fcastle%20wdt%3AP31%20wd%3AQ23413%3B%20wdt%3AP625%20%3Fgeometry.%0A%20%20OPTIONAL%20%7B%20%3Fcastle%20rdfs%3Alabel%20%3Fname.%20FILTER%28LANG%28%3Fname%29%20%3D%20%22en%22%29%20%7D%0A%7D" rel="noopener" target="_blank">Open download page<span aria-hidden="true"> ↗</span></a></div>
+      </article>
+      <article class="ds">
+        <img class="ds-art" src="img/data-laws/china-spicy-preference.jpg?v=1" alt="" width="320" height="180" loading="lazy" decoding="async">
+        <h3>China's provincial spicy-preference scores</h3>
+        <p class="ds-src">Zou and Zou, Frontiers in Nutrition, 2021, Table 4</p>
+        <ul class="ds-chips"><li>GeoJSON · CSV (zip)</li><li>34 provinces · scores for 31</li><li>Hosted on this site</li></ul>
+        <p class="ds-why">A score from 1 (mildest) to 10 (spiciest) for each province-level unit. Taiwan, Hong Kong and Macao have no scores in the paper. This is recent preference, not Qing salt-substitution history, and not per-capita consumption. Drag the GeoJSON into NimbleMap.</p>
+        <div class="ds-actions"><a class="ds-get" href="data/china-province-spicy-preference/china-province-spicy-preference.zip" download>Download zip · 0.2 MB</a><a class="ds-more" href="https://doi.org/10.3389/fnut.2021.718517" rel="noopener" target="_blank">Source paper<span aria-hidden="true"> ↗</span></a></div>
       </article>
     </div>
   </div>
